@@ -1,10 +1,15 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import pLimit from 'p-limit';
 import { config } from './config.js';
-import { upsertPage } from './shopify/pages.js';
+import { upsertPage, deletePageByHandle } from './shopify/pages.js';
 import { ensureBlog } from './shopify/blogs.js';
 import { upsertArticle } from './shopify/articles.js';
-import { setMetafields, ensureMetafieldDefinition } from './shopify/metafields.js';
+import { setMetafields, ensureMetafieldDefinition, deleteMetafieldDefinitionIfTypeMismatch, deleteMetafieldDefinitionByKey } from './shopify/metafields.js';
+import { uploadImageFromUrl } from './shopify/files.js';
+
+const thumbnailUploadInflight = new Map();
+
+const INGREDIENT_SECTIONS_MAX = 5;
 import { resolveProduct } from './shopify/products.js';
 import { slugify } from './utils.js';
 
@@ -13,9 +18,11 @@ const UNRESOLVED_PRODUCTS_CSV = 'data/unresolved-products.csv';
 
 async function loadState() {
     try {
-        return JSON.parse(await readFile(STATE_PATH, 'utf8'));
+        const state = JSON.parse(await readFile(STATE_PATH, 'utf8'));
+        state.thumbnailUploads = state.thumbnailUploads ?? {};
+        return state;
     } catch {
-        return { productResolutions: {}, unresolvedProducts: [] };
+        return { productResolutions: {}, unresolvedProducts: [], thumbnailUploads: {} };
     }
 }
 
@@ -90,63 +97,79 @@ function wrapLegacyBody(bodyHtml) {
     return `<div class="pimcore_area_content legacy-migrated">${bodyHtml}</div>`;
 }
 
-function resolveIngredientGroups(ingredientGroups, productResolutions) {
-    if (!Array.isArray(ingredientGroups)) return ingredientGroups;
-    return ingredientGroups.map((group) => ({
-        section: group.section,
-        items: (group.items || []).map((item) => {
-            // Backwards-compat: items used to be plain strings before the productSourceHandle
-            // field was added; keep them as strings if so.
-            if (typeof item === 'string') return { text: item };
-            const resolved = item.productSourceHandle && productResolutions[item.productSourceHandle];
-            const productGid = resolved?.gid ?? null;
-            const enriched = { text: item.text };
-            if (item.productSourceHandle) enriched.productSourceHandle = item.productSourceHandle;
-            if (productGid) enriched.productGid = productGid;
-            return enriched;
-        }),
-    }));
+function formatIngredientItem(item, productResolutions) {
+    const text = typeof item === 'string' ? item : item.text;
+    if (typeof item === 'string') return text;
+    const resolved = item.productSourceHandle && productResolutions[item.productSourceHandle];
+    const productGid = resolved?.gid;
+    if (!productGid) return text;
+    const productId = productGid.split('/').pop();
+    return `${text} [[${productId}]]`;
 }
 
-function recipeBodyHtml(recipe) {
-    const parts = [];
-    if (recipe.description) parts.push(`<p>${recipe.description}</p>`);
-    if (recipe.ingredientGroups?.length) {
-        parts.push('<h2>Ingrediencie</h2>');
-        for (const group of recipe.ingredientGroups) {
-            if (group.section) parts.push(`<h3>${group.section}</h3>`);
-            parts.push('<ul>');
-            for (const item of group.items) {
-                const itemText = typeof item === 'string' ? item : item.text;
-                parts.push(`  <li>${itemText}</li>`);
-            }
-            parts.push('</ul>');
+function buildIngredientMetafields(ownerId, ingredientGroups, productResolutions) {
+    const entries = [];
+    if (!Array.isArray(ingredientGroups)) return entries;
+    ingredientGroups.slice(0, INGREDIENT_SECTIONS_MAX).forEach((group, index) => {
+        const slot = index + 1;
+        const items = (group.items || []).map((item) => formatIngredientItem(item, productResolutions));
+        if (items.length) {
+            entries.push({
+                ownerId,
+                namespace: SGA_NAMESPACE,
+                key: `ingredients_${slot}`,
+                type: 'list.single_line_text_field',
+                value: JSON.stringify(items),
+            });
         }
-    }
-    if (recipe.instructions?.length) {
-        parts.push('<h2>Postup</h2>');
-        let lastSection = null;
-        const groupedSteps = [];
-        for (const step of recipe.instructions) {
-            if (step.section !== lastSection) {
-                if (groupedSteps.length) {
-                    parts.push('<ol>');
-                    groupedSteps.forEach((stepText) => parts.push(`  <li>${stepText}</li>`));
-                    parts.push('</ol>');
-                    groupedSteps.length = 0;
+        if (group.section) {
+            entries.push({
+                ownerId,
+                namespace: SGA_NAMESPACE,
+                key: `ingredients_${slot}_heading`,
+                type: 'single_line_text_field',
+                value: group.section,
+            });
+        }
+    });
+    return entries;
+}
+
+async function ensureThumbnailFile(sourceUrl, state) {
+    if (state.thumbnailUploads[sourceUrl]) return state.thumbnailUploads[sourceUrl];
+    if (thumbnailUploadInflight.has(sourceUrl)) return thumbnailUploadInflight.get(sourceUrl);
+    const promise = (async () => {
+        try {
+            const gid = await uploadImageFromUrl(sourceUrl);
+            state.thumbnailUploads[sourceUrl] = gid;
+            return gid;
+        } finally {
+            thumbnailUploadInflight.delete(sourceUrl);
+        }
+    })();
+    thumbnailUploadInflight.set(sourceUrl, promise);
+    return promise;
+}
+
+async function buildPolaroidImageMap() {
+    // Polaroid teaser images appear in OTHER pages that reference this article/recipe/herb.
+    // Aggregate them from every section's relatedArticles + youMightAlsoLike refs.
+    const map = new Map();
+    for (const file of ['data/articles.json', 'data/recipes.json', 'data/herbarium.json']) {
+        try {
+            const items = JSON.parse(await readFile(file, 'utf8'));
+            for (const item of items) {
+                for (const ref of [...(item.relatedArticles || []), ...(item.youMightAlsoLike || [])]) {
+                    if (ref.imageUrl && !map.has(ref.sourceHandle)) {
+                        map.set(ref.sourceHandle, ref.imageUrl);
+                    }
                 }
-                if (step.section) parts.push(`<h3>${step.section}</h3>`);
-                lastSection = step.section;
             }
-            groupedSteps.push(step.text);
-        }
-        if (groupedSteps.length) {
-            parts.push('<ol>');
-            groupedSteps.forEach((stepText) => parts.push(`  <li>${stepText}</li>`));
-            parts.push('</ol>');
+        } catch {
+            // File may not exist in some setups — skip silently.
         }
     }
-    return parts.join('\n');
+    return map;
 }
 
 function herbBodyHtml(herb) {
@@ -191,20 +214,55 @@ async function importPages({ dryRun, limit }) {
 const SGA_NAMESPACE = 'sga';
 
 async function ensureMigrationMetafieldDefinitions() {
+    // Drop old JSON-typed defs (with their data) before recreating with new types.
+    // Why: Shopify rejects a definition create if a different-type definition already
+    // owns the namespace/key. Idempotent — no-ops when the old def is absent.
+    for (const oldDef of [
+        { ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: 'ingredients', expectedType: 'list.single_line_text_field' },
+        { ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: 'instructions', expectedType: 'list.single_line_text_field' },
+    ]) {
+        try {
+            const dropped = await deleteMetafieldDefinitionIfTypeMismatch(oldDef);
+            if (dropped) console.log(`  dropped old ${oldDef.key} definition (type mismatch)`);
+        } catch (err) {
+            console.error(`  drop ${oldDef.key}: ${err.message.slice(0, 200)}`);
+        }
+    }
+    // Rename: polaroid_image_url → thumbnail. Delete the old definition unconditionally.
+    try {
+        const dropped = await deleteMetafieldDefinitionByKey({ ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: 'polaroid_image_url' });
+        if (dropped) console.log('  dropped legacy polaroid_image_url definition');
+    } catch (err) {
+        console.error(`  drop polaroid_image_url: ${err.message.slice(0, 200)}`);
+    }
+
     const definitions = [
         { ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: 'main_product', name: 'Main product', type: 'product_reference' },
         { ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: 'dietary', name: 'Dietary attributes', type: 'list.single_line_text_field' },
         { ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: 'found_in_blends', name: 'Found in blends (herbarium)', type: 'list.product_reference' },
         { ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: 'found_in_blends_heading', name: 'Found in blends heading', type: 'single_line_text_field' },
         { ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: 'related_products', name: 'Related products', type: 'list.product_reference' },
+        { ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: 'related_products_heading', name: 'Related products heading', type: 'single_line_text_field' },
+        { ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: 'you_might_also_like_heading', name: 'You might also like heading', type: 'single_line_text_field' },
         { ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: 'related_articles', name: 'Related articles', type: 'list.article_reference' },
         { ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: 'you_might_also_like', name: 'You might also like', type: 'list.article_reference' },
         { ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: 'total_time_minutes', name: 'Recipe total time (minutes)', type: 'number_integer' },
         { ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: 'servings', name: 'Recipe servings', type: 'number_integer' },
-        { ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: 'ingredients', name: 'Recipe ingredients (JSON)', type: 'json' },
-        { ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: 'instructions', name: 'Recipe instructions (JSON)', type: 'json' },
+        { ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: 'instructions', name: 'Recipe instructions', type: 'list.single_line_text_field' },
         { ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: 'latin_name', name: 'Latin name', type: 'single_line_text_field' },
+        {
+            ownerType: 'ARTICLE',
+            namespace: SGA_NAMESPACE,
+            key: 'thumbnail',
+            name: 'Thumbnail image',
+            type: 'file_reference',
+            validations: [{ name: 'file_type_options', value: '["Image"]' }],
+        },
     ];
+    for (let slot = 1; slot <= INGREDIENT_SECTIONS_MAX; slot += 1) {
+        definitions.push({ ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: `ingredients_${slot}`, name: `Recipe ingredients ${slot}`, type: 'list.single_line_text_field' });
+        definitions.push({ ownerType: 'ARTICLE', namespace: SGA_NAMESPACE, key: `ingredients_${slot}_heading`, name: `Recipe ingredients ${slot} heading`, type: 'single_line_text_field' });
+    }
     for (const definition of definitions) {
         try {
             await ensureMetafieldDefinition(definition);
@@ -219,6 +277,7 @@ async function importArticlesGeneric({ section, blogHandle, blogTitle, dryRun, l
     const items = limit ? all.slice(0, limit) : all;
     console.log(`Importing ${items.length} ${section} → blog '${blogHandle}' (dryRun=${dryRun})…`);
     const state = await loadState();
+    const polaroidMap = await buildPolaroidImageMap();
     let blogId = null;
     if (!dryRun) {
         await ensureMigrationMetafieldDefinitions();
@@ -260,11 +319,20 @@ async function importArticlesGeneric({ section, blogHandle, blogTitle, dryRun, l
                     unresolved.forEach((entry) =>
                         unresolvedAccumulator.push({ ...entry, referencedFrom: `article:${item.handle}` }),
                     );
+                    const articleMetafields = [];
                     if (productGids.length) {
-                        await setMetafields([
-                            { ownerId: result.id, namespace: SGA_NAMESPACE, key: 'related_products', type: 'list.product_reference', value: JSON.stringify(productGids) },
-                        ]);
+                        articleMetafields.push({ ownerId: result.id, namespace: SGA_NAMESPACE, key: 'related_products', type: 'list.product_reference', value: JSON.stringify(productGids) });
                     }
+                    const thumbnailUrl = polaroidMap.get(item.handle);
+                    if (thumbnailUrl) {
+                        try {
+                            const fileGid = await ensureThumbnailFile(thumbnailUrl, state);
+                            articleMetafields.push({ ownerId: result.id, namespace: SGA_NAMESPACE, key: 'thumbnail', type: 'file_reference', value: fileGid });
+                        } catch (err) {
+                            console.error(`  ✗ thumbnail upload for ${item.handle}: ${err.message.slice(0, 200)}`);
+                        }
+                    }
+                    if (articleMetafields.length) await setMetafields(articleMetafields);
                     if (result.created) counter.created += 1; else counter.updated += 1;
                     console.log(`  ${result.created ? '+' : '~'} ${item.handle} (${productGids.length}/${item.relatedProducts?.length ?? 0} products)`);
                 } catch (err) {
@@ -303,6 +371,9 @@ async function importArticlesGeneric({ section, blogHandle, blogTitle, dryRun, l
                     if (item.youMightAlsoLikeHeading) {
                         entries.push({ ownerId: ownerGid, namespace: SGA_NAMESPACE, key: 'you_might_also_like_heading', type: 'single_line_text_field', value: item.youMightAlsoLikeHeading });
                     }
+                    if (item.relatedProductsHeading) {
+                        entries.push({ ownerId: ownerGid, namespace: SGA_NAMESPACE, key: 'related_products_heading', type: 'single_line_text_field', value: item.relatedProductsHeading });
+                    }
                     if (!entries.length) return;
                     try { await setMetafields(entries); }
                     catch (err) { console.error(`  ✗ pass2 for ${item.handle}: ${err.message.slice(0, 200)}`); }
@@ -322,6 +393,7 @@ async function importRecipes({ dryRun, limit }) {
     const items = limit ? all.slice(0, limit) : all;
     console.log(`Importing ${items.length} recipes → blog 'recipes' (dryRun=${dryRun})…`);
     const state = await loadState();
+    const polaroidMap = await buildPolaroidImageMap();
     let blogId = null;
     if (!dryRun) {
         await ensureMigrationMetafieldDefinitions();
@@ -345,7 +417,7 @@ async function importRecipes({ dryRun, limit }) {
                         handle: recipe.handle,
                         title: recipe.title || recipe.handle,
                         author: { name: 'Sonnentor' },
-                        body: rewriteBodyProductUrls(wrapLegacyBody(recipeBodyHtml(recipe)), state.productResolutions),
+                        body: '',
                         summary: recipe.excerpt || recipe.metaDescription || recipe.description || '',
                         isPublished: true,
                         tags: [...new Set(recipe.tags ?? [])],
@@ -372,11 +444,13 @@ async function importRecipes({ dryRun, limit }) {
                         metafieldEntries.push({ ownerId: result.id, namespace: SGA_NAMESPACE, key: 'servings', type: 'number_integer', value: String(recipe.servings) });
                     }
                     if (recipe.ingredientGroups?.length) {
-                        const resolvedGroups = resolveIngredientGroups(recipe.ingredientGroups, state.productResolutions);
-                        metafieldEntries.push({ ownerId: result.id, namespace: SGA_NAMESPACE, key: 'ingredients', type: 'json', value: JSON.stringify(resolvedGroups) });
+                        metafieldEntries.push(...buildIngredientMetafields(result.id, recipe.ingredientGroups, state.productResolutions));
                     }
                     if (recipe.instructions?.length) {
-                        metafieldEntries.push({ ownerId: result.id, namespace: SGA_NAMESPACE, key: 'instructions', type: 'json', value: JSON.stringify(recipe.instructions) });
+                        const steps = recipe.instructions.map((s) => s.text).filter(Boolean);
+                        if (steps.length) {
+                            metafieldEntries.push({ ownerId: result.id, namespace: SGA_NAMESPACE, key: 'instructions', type: 'list.single_line_text_field', value: JSON.stringify(steps) });
+                        }
                     }
                     if (mainProductGids.length) {
                         metafieldEntries.push({ ownerId: result.id, namespace: SGA_NAMESPACE, key: 'main_product', type: 'product_reference', value: mainProductGids[0] });
@@ -386,6 +460,15 @@ async function importRecipes({ dryRun, limit }) {
                     }
                     if (productGids.length) {
                         metafieldEntries.push({ ownerId: result.id, namespace: SGA_NAMESPACE, key: 'related_products', type: 'list.product_reference', value: JSON.stringify(productGids) });
+                    }
+                    const thumbnailUrl = polaroidMap.get(recipe.handle);
+                    if (thumbnailUrl) {
+                        try {
+                            const fileGid = await ensureThumbnailFile(thumbnailUrl, state);
+                            metafieldEntries.push({ ownerId: result.id, namespace: SGA_NAMESPACE, key: 'thumbnail', type: 'file_reference', value: fileGid });
+                        } catch (err) {
+                            console.error(`  ✗ thumbnail upload for ${recipe.handle}: ${err.message.slice(0, 200)}`);
+                        }
                     }
                     if (metafieldEntries.length) await setMetafields(metafieldEntries);
                     if (result.created) counter.created += 1; else counter.updated += 1;
@@ -427,6 +510,9 @@ async function importRecipes({ dryRun, limit }) {
                     if (recipe.youMightAlsoLikeHeading) {
                         entries.push({ ownerId: ownerGid, namespace: SGA_NAMESPACE, key: 'you_might_also_like_heading', type: 'single_line_text_field', value: recipe.youMightAlsoLikeHeading });
                     }
+                    if (recipe.relatedProductsHeading) {
+                        entries.push({ ownerId: ownerGid, namespace: SGA_NAMESPACE, key: 'related_products_heading', type: 'single_line_text_field', value: recipe.relatedProductsHeading });
+                    }
                     if (!entries.length) return;
                     try { await setMetafields(entries); }
                     catch (err) { console.error(`  ✗ pass2 for ${recipe.handle}: ${err.message.slice(0, 200)}`); }
@@ -445,6 +531,7 @@ async function importHerbarium({ dryRun, limit }) {
     const items = limit ? all.slice(0, limit) : all;
     console.log(`Importing ${items.length} herbs → blog 'herbarium' (dryRun=${dryRun})…`);
     const state = await loadState();
+    const polaroidMap = await buildPolaroidImageMap();
     let blogId = null;
     if (!dryRun) {
         await ensureMigrationMetafieldDefinitions();
@@ -497,6 +584,15 @@ async function importHerbarium({ dryRun, limit }) {
                     if (herb.foundInBlendsHeading) {
                         metafieldEntries.push({ ownerId: result.id, namespace: SGA_NAMESPACE, key: 'found_in_blends_heading', type: 'single_line_text_field', value: herb.foundInBlendsHeading });
                     }
+                    const thumbnailUrl = polaroidMap.get(herb.handle);
+                    if (thumbnailUrl) {
+                        try {
+                            const fileGid = await ensureThumbnailFile(thumbnailUrl, state);
+                            metafieldEntries.push({ ownerId: result.id, namespace: SGA_NAMESPACE, key: 'thumbnail', type: 'file_reference', value: fileGid });
+                        } catch (err) {
+                            console.error(`  ✗ thumbnail upload for ${herb.handle}: ${err.message.slice(0, 200)}`);
+                        }
+                    }
                     if (metafieldEntries.length) await setMetafields(metafieldEntries);
                     if (result.created) counter.created += 1; else counter.updated += 1;
                     console.log(`  ${result.created ? '+' : '~'} ${herb.handle} (related:${productGids.length}/${herb.relatedProducts?.length ?? 0} blends:${blendGids.length}/${herb.foundInBlends?.length ?? 0})`);
@@ -512,10 +608,43 @@ async function importHerbarium({ dryRun, limit }) {
     console.log(`Herbarium: ${counter.created} created, ${counter.updated} updated, ${counter.failed} failed. Unresolved products: ${unresolvedAccumulator.length}`);
 }
 
+async function deleteImportedPages({ dryRun }) {
+    const all = JSON.parse(await readFile('data/pages.json', 'utf8'));
+    console.log(`Deleting ${all.length} imported pages (dryRun=${dryRun})…`);
+    const parallelLimit = pLimit(config.concurrency.import);
+    let counter = { deleted: 0, missing: 0, failed: 0 };
+    await Promise.all(
+        all.map((page) =>
+            parallelLimit(async () => {
+                if (dryRun) {
+                    console.log(`  [dry] would delete ${page.handle}`);
+                    return;
+                }
+                try {
+                    const deletedId = await deletePageByHandle(page.handle);
+                    if (deletedId) {
+                        counter.deleted += 1;
+                        console.log(`  - ${page.handle}`);
+                    } else {
+                        counter.missing += 1;
+                    }
+                } catch (err) {
+                    counter.failed += 1;
+                    console.error(`  ✗ ${page.handle}: ${err.message.slice(0, 200)}`);
+                }
+            }),
+        ),
+    );
+    console.log(`Pages: ${counter.deleted} deleted, ${counter.missing} not found, ${counter.failed} failed`);
+}
+
 export const sectionImporters = {
-    pages: importPages,
     articles: ({ dryRun, limit }) =>
         importArticlesGeneric({ section: 'articles', blogHandle: 'news', blogTitle: 'Aktuality', dryRun, limit }),
     recipes: importRecipes,
     herbarium: importHerbarium,
+};
+
+export const sectionDeleters = {
+    pages: deleteImportedPages,
 };

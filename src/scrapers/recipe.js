@@ -181,6 +181,17 @@ function isYouMightAlsoLikeSection($section) {
     return YOU_MIGHT_ALSO_LIKE_HEADING.test(h2);
 }
 
+function findCardImageUrl($, anchor) {
+    let img = $(anchor).find('img').first();
+    if (!img.length) img = $(anchor).closest('.polaroid-teaser, .pimcore_area_polaroid-teaser').find('img').first();
+    if (!img.length) return null;
+    const candidate = img.attr('data-srcset')?.split(',')[0]?.trim().split(/\s+/)[0]
+        ?? img.attr('data-src')
+        ?? img.attr('src');
+    if (!candidate || candidate.startsWith('data:')) return null;
+    return absolutize(candidate);
+}
+
 function collectRecipeRefsFromSection($, $section, selfUrl) {
     const refsByHandle = new Map();
     $section.find('a[href*="/recepty-a-tipy/"]').each((_, element) => {
@@ -196,12 +207,14 @@ function collectRecipeRefsFromSection($, $section, selfUrl) {
         const segments = path.split('/');
         if (segments.length < 3) return;
         const linkText = stripWhitespace($(element).text());
+        const imageUrl = findCardImageUrl($, element);
         const previous = refsByHandle.get(lastSegment);
-        if (!previous || (linkText && linkText.length > (previous.title?.length ?? 0))) {
+        if (!previous || (linkText && linkText.length > (previous.title?.length ?? 0)) || (imageUrl && !previous.imageUrl)) {
             refsByHandle.set(lastSegment, {
                 sourceHandle: lastSegment,
                 sourceUrl: absolute,
                 title: linkText || previous?.title || '',
+                imageUrl: imageUrl || previous?.imageUrl || null,
             });
         }
     });
@@ -240,6 +253,18 @@ function extractYouMightAlsoLikeHeading($) {
         const text = stripWhitespace($section.find('h2').first().text()).replace(/:$/, '');
         if (text) heading = text;
         return false;
+    });
+    return heading;
+}
+
+function extractRelatedProductsHeading($) {
+    let heading = '';
+    $('section.product-slider, .pimcore_area_product-slider').each((_, section) => {
+        const text = stripWhitespace($(section).find('h2').first().text()).replace(/:$/, '');
+        if (text) {
+            heading = text;
+            return false;
+        }
     });
     return heading;
 }
@@ -328,6 +353,7 @@ export async function scrapeRecipe(url) {
     const relatedArticles = extractRelatedRecipes($, url);
     const youMightAlsoLike = extractYouMightAlsoLikeRecipes($, url);
     const youMightAlsoLikeHeading = extractYouMightAlsoLikeHeading($);
+    const relatedProductsHeading = extractRelatedProductsHeading($);
     const heroExcerpt = extractHeroExcerpt($);
     const metaDescription = $('meta[name="description"]').attr('content')?.trim() ?? description;
     const rating = recipeNode?.aggregateRating
@@ -354,6 +380,7 @@ export async function scrapeRecipe(url) {
         heroImage,
         mainProduct,
         relatedProducts,
+        relatedProductsHeading,
         relatedArticles,
         youMightAlsoLike,
         youMightAlsoLikeHeading,

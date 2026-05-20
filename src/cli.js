@@ -92,11 +92,21 @@ async function runImport([section, ...rest]) {
     await importerFn({ dryRun, limit: limitCount });
 }
 
+async function runDelete([section, ...rest]) {
+    if (!section) throw new Error('Usage: delete <pages> [--dry]');
+    const { sectionDeleters } = await import('./importer.js');
+    const deleterFn = sectionDeleters[section];
+    if (!deleterFn) throw new Error(`Unknown section: ${section} (available: ${Object.keys(sectionDeleters).join(', ')})`);
+    const dryRun = rest.includes('--dry');
+    await deleterFn({ dryRun });
+}
+
 const commands = {
     urls: runUrls,
     scrape: runScrape,
     ping: runPing,
     import: runImport,
+    delete: runDelete,
 };
 
 const handler = commands[command];

@@ -79,11 +79,34 @@ function extractRelatedProducts($) {
     return [...productsByHandle.values()];
 }
 
+function extractRelatedProductsHeading($) {
+    let heading = '';
+    $('section.product-slider, .pimcore_area_product-slider').each((_, section) => {
+        const text = stripWhitespace($(section).find('h2').first().text()).replace(/:$/, '');
+        if (text) {
+            heading = text;
+            return false;
+        }
+    });
+    return heading;
+}
+
 const YOU_MIGHT_ALSO_LIKE_HEADING = /Mohlo by v[áa]s tak[ée] zaj[ií]mat|Recepty, kter[ée] by v[áa]m tak[ée] mohly chutnat/i;
 
 function isYouMightAlsoLikeSection($section) {
     const h2 = $section.find('h2').first().text();
     return YOU_MIGHT_ALSO_LIKE_HEADING.test(h2);
+}
+
+function findCardImageUrl($, anchor) {
+    let img = $(anchor).find('img').first();
+    if (!img.length) img = $(anchor).closest('.polaroid-teaser, .pimcore_area_polaroid-teaser').find('img').first();
+    if (!img.length) return null;
+    const candidate = img.attr('data-srcset')?.split(',')[0]?.trim().split(/\s+/)[0]
+        ?? img.attr('data-src')
+        ?? img.attr('src');
+    if (!candidate || candidate.startsWith('data:')) return null;
+    return absolutize(candidate);
 }
 
 function collectArticleRefsFromSection($, $section, selfUrl) {
@@ -99,12 +122,14 @@ function collectArticleRefsFromSection($, $section, selfUrl) {
         const lastSegment = path.split('/').pop();
         if (!lastSegment || lastSegment === 'tag') return;
         const linkText = stripWhitespace($(element).text());
+        const imageUrl = findCardImageUrl($, element);
         const previous = refsByHandle.get(lastSegment);
-        if (!previous || (linkText && linkText.length > (previous.title?.length ?? 0))) {
+        if (!previous || (linkText && linkText.length > (previous.title?.length ?? 0)) || (imageUrl && !previous.imageUrl)) {
             refsByHandle.set(lastSegment, {
                 sourceHandle: lastSegment,
                 sourceUrl: absolute,
                 title: linkText || previous?.title || '',
+                imageUrl: imageUrl || previous?.imageUrl || null,
             });
         }
     });
@@ -161,6 +186,7 @@ export async function scrapeArticle(url) {
     const mainElement = $('main#mainContent, main.main-content, main').first();
     const heroImage = findHeroImage($, mainElement);
     const relatedProducts = extractRelatedProducts($);
+    const relatedProductsHeading = extractRelatedProductsHeading($);
     const relatedArticles = extractRelatedArticles($, url);
     const youMightAlsoLike = extractYouMightAlsoLike($, url);
     const youMightAlsoLikeHeading = extractYouMightAlsoLikeHeading($);
@@ -182,6 +208,7 @@ export async function scrapeArticle(url) {
         images,
         tags,
         relatedProducts,
+        relatedProductsHeading,
         relatedArticles,
         youMightAlsoLike,
         youMightAlsoLikeHeading,

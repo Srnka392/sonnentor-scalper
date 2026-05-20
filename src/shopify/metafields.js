@@ -59,3 +59,47 @@ export async function ensureMetafieldDefinition(definition) {
     assertNoUserErrors('metafieldDefinitionCreate', data.metafieldDefinitionCreate);
     return data.metafieldDefinitionCreate.createdDefinition;
 }
+
+const METAFIELD_DEFINITION_DELETE = /* GraphQL */ `
+    mutation DeleteMetafieldDefinition($id: ID!, $deleteAllAssociatedMetafields: Boolean!) {
+        metafieldDefinitionDelete(id: $id, deleteAllAssociatedMetafields: $deleteAllAssociatedMetafields) {
+            deletedDefinitionId
+            userErrors { field message code }
+        }
+    }
+`;
+
+export async function deleteMetafieldDefinitionByKey({ ownerType, namespace, key }) {
+    const existing = await shopifyGraphql(
+        METAFIELD_DEFINITIONS_BY_OWNER,
+        { ownerType, namespace },
+        'MetafieldDefinitions',
+    );
+    const match = existing.metafieldDefinitions.nodes.find((node) => node.key === key);
+    if (!match) return false;
+    const data = await shopifyGraphql(
+        METAFIELD_DEFINITION_DELETE,
+        { id: match.id, deleteAllAssociatedMetafields: true },
+        'DeleteMetafieldDefinition',
+    );
+    assertNoUserErrors('metafieldDefinitionDelete', data.metafieldDefinitionDelete);
+    return true;
+}
+
+export async function deleteMetafieldDefinitionIfTypeMismatch({ ownerType, namespace, key, expectedType }) {
+    const existing = await shopifyGraphql(
+        METAFIELD_DEFINITIONS_BY_OWNER,
+        { ownerType, namespace },
+        'MetafieldDefinitions',
+    );
+    const match = existing.metafieldDefinitions.nodes.find((node) => node.key === key);
+    if (!match) return false;
+    if (match.type?.name === expectedType) return false;
+    const data = await shopifyGraphql(
+        METAFIELD_DEFINITION_DELETE,
+        { id: match.id, deleteAllAssociatedMetafields: true },
+        'DeleteMetafieldDefinition',
+    );
+    assertNoUserErrors('metafieldDefinitionDelete', data.metafieldDefinitionDelete);
+    return true;
+}
