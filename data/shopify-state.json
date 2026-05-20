@@ -1,0 +1,3047 @@
+{
+  "productResolutions": {
+    "skorice-cejlon-mleta-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821907624270",
+      "matchedBy": "image-code",
+      "title": "Skořice Cejlon bio, mletá 40g",
+      "handle": "skorice-cejlon-bio-mleta-40g"
+    },
+    "kardamom-mlety-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821921386830",
+      "matchedBy": "image-code",
+      "title": "Kardamom bio, mletý 50g",
+      "handle": "kardamom-bio-mlety-50g"
+    },
+    "vanilkovy-prasek-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821908050254",
+      "matchedBy": "image-code",
+      "title": "Vanilka bio, mletá 10 g",
+      "handle": "vanilka-bio-mleta-10-g"
+    },
+    "anyz-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821909426510",
+      "matchedBy": "image-code",
+      "title": "Anýz bio 50g",
+      "handle": "anyz-bio-50g"
+    },
+    "chilli-mlete-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821910311246",
+      "matchedBy": "image-code",
+      "title": "Chilli bio, mleté 40g",
+      "handle": "chilli-bio-mlete-40g"
+    },
+    "chai-polibek-orientu-smes-kvetu-a-koreni-s-cukrem-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821914669390",
+      "matchedBy": "image-code",
+      "title": "Chai polibek Orientu bio 70g",
+      "handle": "chai-polibek-orientu-bio-70g"
+    },
+    "chai-sirup-bio": {
+      "gid": "gid://shopify/Product/15821920272718",
+      "matchedBy": "image-code",
+      "title": "Chai sirup bio 250 ml",
+      "handle": "chai-sirup-bio-250-ml"
+    },
+    "schlaukakao-kakaovy-napoj-bio-doza": {
+      "gid": "gid://shopify/Product/15821911523662",
+      "matchedBy": "image-code",
+      "title": "Raráškovo Schlaukakao bio 300g",
+      "handle": "raraskovo-schlaukakao-bio-300g"
+    },
+    "chilli-extra-ostre-mlete-kayensky-pepr-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821910376782",
+      "matchedBy": "image-code",
+      "title": "Chilli bio extra ostré, mleté 40g (Kayenský pepř)",
+      "handle": "chilli-bio-extra-ostre-mlete-40g-kayensky-pepr"
+    },
+    "chilli-vlocky-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821921255758",
+      "matchedBy": "image-code",
+      "title": "Chilli bio, vločky 45g",
+      "handle": "chilli-bio-vlocky-45g"
+    },
+    "pumpkin-spice-sirup-bio": {
+      "gid": "gid://shopify/Product/15821931446606",
+      "matchedBy": "image-code",
+      "title": "Pumpkin spice sirup bio 250 ml",
+      "handle": "pumpkin-spice-sirup-bio-250-ml"
+    },
+    "kurkuma-latte-vanilka-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821917421902",
+      "matchedBy": "image-code",
+      "title": "Kurkuma Latte - vanilka bio 60g",
+      "handle": "kurkuma-latte-vanilka-bio-60g"
+    },
+    "trezalka-sypana-bio": {
+      "gid": "gid://shopify/Product/15821911720270",
+      "matchedBy": "image-code",
+      "title": "Třezalka bio syp. 60g",
+      "handle": "trezalka-bio-syp-60g"
+    },
+    "hermanek-sypany-bio": {
+      "gid": "gid://shopify/Product/15821906346318",
+      "matchedBy": "image-code",
+      "title": "Heřmánek bio syp. 50g",
+      "handle": "hermanek-bio-syp-50g"
+    },
+    "majoranka-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821921452366",
+      "matchedBy": "image-code",
+      "title": "Majoránka bio 10g",
+      "handle": "majoranka-bio-10g"
+    },
+    "tymian-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821921747278",
+      "matchedBy": "image-code",
+      "title": "Tymián bio 20g",
+      "handle": "tymian-bio-20g"
+    },
+    "mata-peprna-sypana-bio": {
+      "gid": "gid://shopify/Product/15821906575694",
+      "matchedBy": "image-code",
+      "title": "Máta peprná bio syp. 50g",
+      "handle": "mata-peprna-bio-syp-50g"
+    },
+    "eukalyptus-etericky-olej-bio": {
+      "gid": "gid://shopify/Product/15821911458126",
+      "matchedBy": "image-code",
+      "title": "Eukalyptus bio éterický olej 10ml",
+      "handle": "eukalyptus-bio-etericky-olej-10ml"
+    },
+    "cajovnik-etericky-olej-bio": {
+      "gid": "gid://shopify/Product/15821911359822",
+      "matchedBy": "image-code",
+      "title": "Čajovník bio éterický olej 10ml",
+      "handle": "cajovnik-bio-etericky-olej-10ml"
+    },
+    "levandule-kvet-sypana-bio": {
+      "gid": "gid://shopify/Product/15821912965454",
+      "matchedBy": "image-code",
+      "title": "Levandule květ bio syp. 70g",
+      "handle": "levandule-kvet-bio-syp-70g"
+    },
+    "medunka-sypana-bio2": {
+      "gid": "gid://shopify/Product/15821906444622",
+      "matchedBy": "image-code",
+      "title": "Meduňka bio syp. 50g",
+      "handle": "medunka-bio-syp-50g"
+    },
+    "salvej-sypana-bio": {
+      "gid": "gid://shopify/Product/15821911687502",
+      "matchedBy": "image-code",
+      "title": "Šalvěj bio syp. 50g",
+      "handle": "salvej-bio-syp-50g"
+    },
+    "dobra-nalada-smes-kvetu-a-koreni-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821909754190",
+      "matchedBy": "image-code",
+      "title": "Dobrá nálada - směs květů a koření bio 25g",
+      "handle": "dobra-nalada-smes-kvetu-a-koreni-bio-25g"
+    },
+    "charlieho-koreni-do-kase-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821925024078",
+      "matchedBy": "image-code",
+      "title": "Charlieho koření do kaše bio 70 g",
+      "handle": "charlieho-koreni-do-kase-bio-70-g"
+    },
+    "skoricove-cukrovani-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821933379918",
+      "matchedBy": "image-code",
+      "title": "Skořicové cukrování bio 90 g",
+      "handle": "skoricove-cukrovani-bio-90-g"
+    },
+    "beze-zbytku-bio-baleni": {
+      "gid": "gid://shopify/Product/15821926728014",
+      "matchedBy": "image-code",
+      "title": "Beze zbytku bio 50g",
+      "handle": "beze-zbytku-bio-50g"
+    },
+    "ovoce-na-zizu-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821923090766",
+      "matchedBy": "image-code",
+      "title": "Ovoce na žížu® Biorarášci bio 32,4g porc. dvoukomorový",
+      "handle": "ovoce-na-zizu-biorarasci-bio-324g-porc-dvoukomorovy"
+    },
+    "ranni-ptace-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821923025230",
+      "matchedBy": "image-code",
+      "title": "Ranní ptáče Biorarášci bio 32,4g porc. dvoukomorový",
+      "handle": "ranni-ptace-biorarasci-bio-324g-porc-dvoukomorovy"
+    },
+    "dobra-nalada-bylinny-caj-bio-porcovany-dvoukomorovy2": {
+      "gid": "gid://shopify/Product/15821907034446",
+      "matchedBy": "image-code",
+      "title": "Dobrá nálada® bio 27g porc. dvoukomorový",
+      "handle": "dobra-nalada-bio-27g-porc-dvoukomorovy"
+    },
+    "dobre-rano-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821908246862",
+      "matchedBy": "image-code",
+      "title": "Dobré ráno bio 27g porc. dvoukomorový",
+      "handle": "dobre-rano-bio-27g-porc-dvoukomorovy"
+    },
+    "zaklady-rovnovahy-bylinny-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821908443470",
+      "matchedBy": "image-code",
+      "title": "Základy rovnováhy bio 27g porc. dvoukomorový",
+      "handle": "zaklady-rovnovahy-bio-27g-porc-dvoukomorovy"
+    },
+    "rodinny-bylinny-caj-sypany-bio-velke-baleni": {
+      "gid": "gid://shopify/Product/15821914865998",
+      "matchedBy": "image-code",
+      "title": "Rodinný bylinný čaj bio 130g",
+      "handle": "rodinny-bylinny-caj-bio-130g"
+    },
+    "kontryhel-sypany-bio": {
+      "gid": "gid://shopify/Product/15821915357518",
+      "matchedBy": "image-code",
+      "title": "Kontryhel bio syp. 40g",
+      "handle": "kontryhel-bio-syp-40g"
+    },
+    "sipek-oplodi-sypany-bio": {
+      "gid": "gid://shopify/Product/15821909033294",
+      "matchedBy": "image-code",
+      "title": "Šípek oplodí bio syp. 100g",
+      "handle": "sipek-oplodi-bio-syp-100g"
+    },
+    "lapacho-kura-sypana": {
+      "gid": "gid://shopify/Product/15821929906510",
+      "matchedBy": "image-code",
+      "title": "Lapacho kůra konv. 50 g, syp.",
+      "handle": "lapacho-kura-konv-50-g-syp"
+    },
+    "kopriva-sypana-bio": {
+      "gid": "gid://shopify/Product/15821912113486",
+      "matchedBy": "image-code",
+      "title": "Kopřiva bio syp. 50g",
+      "handle": "kopriva-bio-syp-50g"
+    },
+    "lipa-sypana-bio2": {
+      "gid": "gid://shopify/Product/15821906673998",
+      "matchedBy": "image-code",
+      "title": "Lípa květ bio syp.35 g",
+      "handle": "lipa-kvet-bio-syp35-g"
+    },
+    "slez-sypany-bio": {
+      "gid": "gid://shopify/Product/15821913162062",
+      "matchedBy": "image-code",
+      "title": "Sléz bio syp. 50g",
+      "handle": "slez-bio-syp-50g"
+    },
+    "verbena-sypana-bio": {
+      "gid": "gid://shopify/Product/15821913456974",
+      "matchedBy": "image-code",
+      "title": "Verbena citronová bio syp. 30g",
+      "handle": "verbena-citronova-bio-syp-30g"
+    },
+    "zazvor-sypany-bio2": {
+      "gid": "gid://shopify/Product/15821910835534",
+      "matchedBy": "image-code",
+      "title": "Zázvor bio syp. 90g",
+      "handle": "zazvor-bio-syp-90g"
+    },
+    "skoricovy-zazrak-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821919289678",
+      "matchedBy": "image-code",
+      "title": "Skořicový zázrak bio 32,4 g, porc. dvoukomorový",
+      "handle": "skoricovy-zazrak-bio-324-g-porc-dvoukomorovy"
+    },
+    "jeziskuv-nebesky-r-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821928202574",
+      "matchedBy": "image-code",
+      "title": "Ježíškův nebeský® čaj bio 27 g, porc. dvoukomorový",
+      "handle": "jeziskuv-nebesky-caj-bio-27-g-porc-dvoukomorovy"
+    },
+    "steak-that-grilovaci-koreni-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821918830926",
+      "matchedBy": "image-code",
+      "title": "Steak That bio 50g",
+      "handle": "steak-that-bio-50g"
+    },
+    "kouzlo-krbu-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821928694094",
+      "matchedBy": "image-code",
+      "title": "Kouzlo krbu bio 45 g, porc. dvoukomorový",
+      "handle": "kouzlo-krbu-bio-45-g-porc-dvoukomorovy"
+    },
+    "steak-that-grilovaci-koreni-bio-gastro-doza-mala": {
+      "gid": "gid://shopify/Product/15821918765390",
+      "matchedBy": "image-code",
+      "title": "Steak That bio 150g, dóza",
+      "handle": "steak-that-bio-150g-doza"
+    },
+    "cas-na-pernicek-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821919387982",
+      "matchedBy": "image-code",
+      "title": "Čas na perníček bio 32,4g porc. dvoukomorový",
+      "handle": "cas-na-pernicek-bio-324g-porc-dvoukomorovy"
+    },
+    "fish-chicks-grilovaci-koreni-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821918470478",
+      "matchedBy": "image-code",
+      "title": "Fish & Chicks bio 55g",
+      "handle": "fish-chicks-bio-55g"
+    },
+    "jablicko-z-pece-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821926629710",
+      "matchedBy": "image-code",
+      "title": "Jablíčko z pece® bio 45 g, porc. dvoukomorový",
+      "handle": "jablicko-z-pece-bio-45-g-porc-dvoukomorovy"
+    },
+    "smokey-salt-krabicka": {
+      "gid": "gid://shopify/Product/15821916963150",
+      "matchedBy": "image-code",
+      "title": "Smokey Salt konv., uzená mořská sůl 150g",
+      "handle": "smokey-salt-konv-uzena-morska-sul-150g"
+    },
+    "zimni-noc-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821928431950",
+      "matchedBy": "image-code",
+      "title": "Zimní noc bio 45 g, porc. dvoukomorový",
+      "handle": "zimni-noc-bio-45-g-porc-dvoukomorovy"
+    },
+    "holy-veggie-grilovaci-koreni-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821918634318",
+      "matchedBy": "image-code",
+      "title": "Holy Veggie bio 30g",
+      "handle": "holy-veggie-bio-30g"
+    },
+    "svetelny-trpyt-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821928038734",
+      "matchedBy": "image-code",
+      "title": "Světelný třpyt bio 27 g, porc. dvoukomorový",
+      "handle": "svetelny-trpyt-bio-27-g-porc-dvoukomorovy"
+    },
+    "holy-veggie-grilovaci-koreni-bio-gastro-doza-mala": {
+      "gid": "gid://shopify/Product/15821918536014",
+      "matchedBy": "image-code",
+      "title": "Holy Veggie bio 90 g, dóza",
+      "handle": "holy-veggie-bio-90-g-doza"
+    },
+    "koreni-do-svareneho-cerveneho-vina-bio-porcovany-dvoukomorovy2": {
+      "gid": "gid://shopify/Product/15821928595790",
+      "matchedBy": "image-code",
+      "title": "Koření do svařeného červeného vína bio 32,4 g, porc. dvoukomorový",
+      "handle": "koreni-do-svareneho-cerveneho-vina-bio-324-g-porc-dvoukomorovy"
+    },
+    "rub-me-tender-grilovaci-koreni-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821918699854",
+      "matchedBy": "image-code",
+      "title": "Rub me Tender bio 60g",
+      "handle": "rub-me-tender-bio-60g"
+    },
+    "chai-vanocni-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821935870286",
+      "matchedBy": "image-code",
+      "title": "Chai vánoční bio 32,4 g, porc. dvoukomorový",
+      "handle": "chai-vanocni-bio-324-g-porc-dvoukomorovy"
+    },
+    "pyramidalni-sul-z-recka-baleni": {
+      "gid": "gid://shopify/Product/15821927022926",
+      "matchedBy": "image-code",
+      "title": "Pyramid Salt 65 g",
+      "handle": "pyramid-salt-65-g"
+    },
+    "jablecny-kouzelny-punc-sirup-bio": {
+      "gid": "gid://shopify/Product/15821914210638",
+      "matchedBy": "image-code",
+      "title": "Jablečný kouzelný punč sirup bio 500 ml",
+      "handle": "jablecny-kouzelny-punc-sirup-bio-500-ml"
+    },
+    "smokey-paprika-uzena-bio-baleni": {
+      "gid": "gid://shopify/Product/15821926302030",
+      "matchedBy": "image-code",
+      "title": "Smokey Paprika bio, uzená 50g",
+      "handle": "smokey-paprika-bio-uzena-50g"
+    },
+    "kouzlo-krbu-sypane-bio-baleni": {
+      "gid": "gid://shopify/Product/15821928628558",
+      "matchedBy": "image-code",
+      "title": "Kouzlo krbu bio 100 g syp.",
+      "handle": "kouzlo-krbu-bio-100-g-syp"
+    },
+    "morska-sul-s-morskymi-rasami-obsahujicimi-jod-baleni": {
+      "gid": "gid://shopify/Product/15821927121230",
+      "matchedBy": "image-code",
+      "title": "Mořská sůl s mořskými řasami obsahujícími jód 150 g",
+      "handle": "morska-sul-s-morskymi-rasami-obsahujicimi-jod-150-g"
+    },
+    "jeziskuv-nebesky-r-caj-bio-baleni": {
+      "gid": "gid://shopify/Product/15821928071502",
+      "matchedBy": "image-code",
+      "title": "Ježíškův nebeský® čaj bio 60 g syp.",
+      "handle": "jeziskuv-nebesky-caj-bio-60-g-syp"
+    },
+    "ayurvedska-kouzelna-sul-jemna-krabicka": {
+      "gid": "gid://shopify/Product/15821908902222",
+      "matchedBy": "image-code",
+      "title": "Ayurvédská kouzelná sůl jemná konv. 150g",
+      "handle": "ayurvedska-kouzelna-sul-jemna-konv-150g"
+    },
+    "sonnentor-adventni-kalendar-bio-poznavaci-sada": {
+      "gid": "gid://shopify/Product/15821935051086",
+      "matchedBy": "image-code",
+      "title": "SONNENTOR Adventní kalendář® bio 38,9 g, porc. dvoukomorový",
+      "handle": "sonnentor-adventni-kalendar-bio-389-g-porc-dvoukomorovy"
+    },
+    "ayurvedska-kouzelna-sul-jemna-dozicka": {
+      "gid": "gid://shopify/Product/15821908803918",
+      "matchedBy": "image-code",
+      "title": "Ayurvédská kouzelná sůl jemná konv. - dóza malá 120g",
+      "handle": "ayurvedska-kouzelna-sul-jemna-konv-doza-mala-120g"
+    },
+    "grilovaci-sul-s-korenim-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821910147406",
+      "matchedBy": "image-code",
+      "title": "Grilovací sůl s kořením bio 100g",
+      "handle": "grilovaci-sul-s-korenim-bio-100g"
+    },
+    "koreni-na-burger-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821933314382",
+      "matchedBy": "image-code",
+      "title": "Koření na burger bio 60 g",
+      "handle": "koreni-na-burger-bio-60-g"
+    },
+    "darkove-baleni-3-caju-cas-zazraku-bio": {
+      "gid": "gid://shopify/Product/15821935706446",
+      "matchedBy": "image-code",
+      "title": "Dárkové balení 3 čajů – Čas zázraků",
+      "handle": "darkove-baleni-3-caju-cas-zazraku"
+    },
+    "koreni-na-letni-zeleninu-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821933117774",
+      "matchedBy": "image-code",
+      "title": "Koření na letní zeleninu bio 35 g",
+      "handle": "koreni-na-letni-zeleninu-bio-35-g"
+    },
+    "frankyho-koreni-na-barbecue-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821914308942",
+      "matchedBy": "image-code",
+      "title": "Frankyho koření na barbecue bio 35g",
+      "handle": "frankyho-koreni-na-barbecue-bio-35g"
+    },
+    "pepr-barevny-cerny-bily-ruzovy-zeleny-cely-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821921878350",
+      "matchedBy": "image-code",
+      "title": "Pepř barevný bio, celý 50g",
+      "handle": "pepr-barevny-bio-cely-50g"
+    },
+    "darkove-baleni-2-caju-zimni-tajemstvi-bio": {
+      "gid": "gid://shopify/Product/15821935673678",
+      "matchedBy": "image-code",
+      "title": "Dárkové balení 2 čajů - Zimní tajemství",
+      "handle": "darkove-baleni-2-caju-zimni-tajemstvi"
+    },
+    "energie-smes-kvetu-a-koreni-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821908017486",
+      "matchedBy": "image-code",
+      "title": "Energie - směs květů a koření bio 30g",
+      "handle": "energie-smes-kvetu-a-koreni-bio-30g"
+    },
+    "koreni-na-tofu-pani-yoko-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821914505550",
+      "matchedBy": "image-code",
+      "title": "Koření na tofu paní Yoko bio 32g",
+      "handle": "koreni-na-tofu-pani-yoko-bio-32g"
+    },
+    "darkove-baleni-3-caju-vanoce-bio-baleni": {
+      "gid": "gid://shopify/Product/15821923713358",
+      "matchedBy": "image-code",
+      "title": "Dárkové balení 3 čajů - Vánoce",
+      "handle": "darkove-baleni-3-caju-vanoce"
+    },
+    "darkove-baleni-2-caju-adventni-cas-bio": {
+      "gid": "gid://shopify/Product/15821931610446",
+      "matchedBy": "image-code",
+      "title": "Dárkové balení 2 čajů – Adventní čas",
+      "handle": "darkove-baleni-2-caju-adventni-cas"
+    },
+    "darkove-baleni-2-caju-pratelstvi-bio-baleni": {
+      "gid": "gid://shopify/Product/15821923811662",
+      "matchedBy": "image-code",
+      "title": "Dárkové balení 2 čajů - Přátelství",
+      "handle": "darkove-baleni-2-caju-pratelstvi"
+    },
+    "darkova-baleni-2-caju-pro-prarodice-bio": {
+      "gid": "gid://shopify/Product/15821922468174",
+      "matchedBy": "image-code",
+      "title": "Dárkové balení 2 čajů - Pro prarodiče",
+      "handle": "darkove-baleni-2-caju-pro-prarodice"
+    },
+    "pernikove-koreni-mlete-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821907853646",
+      "matchedBy": "image-code",
+      "title": "Perníkové koření bio, mleté 40g",
+      "handle": "pernikove-koreni-bio-mlete-40g"
+    },
+    "vanilkovy-cukr-mlety-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821909655886",
+      "matchedBy": "image-code",
+      "title": "Vanilkový cukr bio 50g",
+      "handle": "vanilkovy-cukr-bio-50g"
+    },
+    "muskatovy-orisek-cely-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821907984718",
+      "matchedBy": "image-code",
+      "title": "Muškátový oříšek bio, celý 25g",
+      "handle": "muskatovy-orisek-bio-cely-25g"
+    },
+    "hrebicek-cely-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821909524814",
+      "matchedBy": "image-code",
+      "title": "Hřebíček bio, celý 35g",
+      "handle": "hrebicek-bio-cely-35g"
+    },
+    "hrebicek-mlety-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821909492046",
+      "matchedBy": "image-code",
+      "title": "Hřebíček bio, mletý 35g",
+      "handle": "hrebicek-bio-mlety-35g"
+    },
+    "kardamom-cely-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821921321294",
+      "matchedBy": "image-code",
+      "title": "Kardamom bio, celý 40g",
+      "handle": "kardamom-bio-cely-40g"
+    },
+    "novorocni-caj-bio-porcovany-dvoukomorovy2": {
+      "gid": "gid://shopify/Product/15821932757326",
+      "matchedBy": "image-code",
+      "title": "Novoroční čaj® bio 27 g, porc. dvoukomorový",
+      "handle": "novorocni-caj-bio-27-g-porc-dvoukomorovy"
+    },
+    "hlavu-vzhuru-bylinna-smes-sypana-bio": {
+      "gid": "gid://shopify/Product/15821920043342",
+      "matchedBy": "image-code",
+      "title": "Hlavu vzhůru bio syp. 50g",
+      "handle": "hlavu-vzhuru-bio-syp-50g"
+    },
+    "pohodar-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821916832078",
+      "matchedBy": "image-code",
+      "title": "Pohodář - bylinný čaj bio 27g porc. dvoukomorový",
+      "handle": "pohodar-bylinny-caj-bio-27g-porc-dvoukomorovy"
+    },
+    "milostny-bylinny-caj-sypany-bio2": {
+      "gid": "gid://shopify/Product/15821910049102",
+      "matchedBy": "image-code",
+      "title": "Milostný bylinný čaj bio syp. 50g",
+      "handle": "milostny-bylinny-caj-bio-syp-50g"
+    },
+    "kuc-kuc-bylinna-smes-sypana-bio": {
+      "gid": "gid://shopify/Product/15821909885262",
+      "matchedBy": "image-code",
+      "title": "Kuc - kuc®  bio 50 g, syp.",
+      "handle": "kuc-kuc-bio-50-g-syp"
+    },
+    "malina-sirup-bio": {
+      "gid": "gid://shopify/Product/15821908705614",
+      "matchedBy": "image-code",
+      "title": "Malina sirup bio 500 ml",
+      "handle": "malina-sirup-bio-500-ml"
+    },
+    "sbohem-soli-zeleninova-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821927940430",
+      "matchedBy": "image-code",
+      "title": "Sbohem soli! Zeleninová bio 55 g",
+      "handle": "sbohem-soli-zeleninova-bio-55-g"
+    },
+    "ovocny-sen-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821908607310",
+      "matchedBy": "image-code",
+      "title": "Ovocný sen bio 45 g, porc. dvoukomorový",
+      "handle": "ovocny-sen-bio-45-g-porc-dvoukomorovy"
+    },
+    "muskatovy-orisek-mlety-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821907951950",
+      "matchedBy": "image-code",
+      "title": "Muškátový oříšek bio, mletý 30g",
+      "handle": "muskatovy-orisek-bio-mlety-30g"
+    },
+    "petrzel-rezana-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821907427662",
+      "matchedBy": "image-code",
+      "title": "Petržel bio 15g",
+      "handle": "petrzel-bio-15g"
+    },
+    "libecek-rezany-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821907460430",
+      "matchedBy": "image-code",
+      "title": "Libeček bio 15g",
+      "handle": "libecek-bio-15g"
+    },
+    "kopr-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821907558734",
+      "matchedBy": "image-code",
+      "title": "Kopr bio 15g",
+      "handle": "kopr-bio-15g"
+    },
+    "koriandr-nat-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821912211790",
+      "matchedBy": "image-code",
+      "title": "Koriandr nať bio 15g",
+      "handle": "koriandr-nat-bio-15g"
+    },
+    "koriandr-cely-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821910540622",
+      "matchedBy": "image-code",
+      "title": "Koriandr bio, celý 35g",
+      "handle": "koriandr-bio-cely-35g"
+    },
+    "cesnek-medvedi-rezany-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821907886414",
+      "matchedBy": "image-code",
+      "title": "Česnek medvědí bio, řezaný 18g",
+      "handle": "cesnek-medvedi-bio-rezany-18g"
+    },
+    "paprika-sladka-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821921583438",
+      "matchedBy": "image-code",
+      "title": "Paprika sladká bio, mletá 50g",
+      "handle": "paprika-sladka-bio-mleta-50g"
+    },
+    "slunecni-polibek-smes-kvetu-a-koreni-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821912637774",
+      "matchedBy": "image-code",
+      "title": "Sluneční polibek - směs květů a koření bio 40g",
+      "handle": "slunecni-polibek-smes-kvetu-a-koreni-bio-40g"
+    },
+    "nove-koreni-cele-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821909786958",
+      "matchedBy": "image-code",
+      "title": "Nové koření bio, celé 35g",
+      "handle": "nove-koreni-bio-cele-35g"
+    },
+    "polevkove-koreni-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821907329358",
+      "matchedBy": "image-code",
+      "title": "Polévkové koření bio 25g",
+      "handle": "polevkove-koreni-bio-25g"
+    },
+    "rozmaryn-rezany-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821910638926",
+      "matchedBy": "image-code",
+      "title": "Rozmarýn bio 25g",
+      "handle": "rozmaryn-bio-25g"
+    },
+    "bazalka-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821909393742",
+      "matchedBy": "image-code",
+      "title": "Bazalka bio 15g",
+      "handle": "bazalka-bio-15g"
+    },
+    "sbohem-soli-pikantni-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821917028686",
+      "matchedBy": "image-code",
+      "title": "Sbohem, soli! Pikantní bio 50g",
+      "handle": "sbohem-soli-pikantni-bio-50g"
+    },
+    "pepr-cerny-mlety-bio": {
+      "gid": "gid://shopify/Product/15821921681742",
+      "matchedBy": "image-code",
+      "title": "Pepř černý bio, mletý 50g",
+      "handle": "pepr-cerny-bio-mlety-50g"
+    },
+    "kmin-mlety-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821907296590",
+      "matchedBy": "image-code",
+      "title": "Kmín bio, mletý 60g",
+      "handle": "kmin-bio-mlety-60g"
+    },
+    "citronovy-pepr-bio-baleni": {
+      "gid": "gid://shopify/Product/15821926105422",
+      "matchedBy": "image-code",
+      "title": "Citronový pepř bio 70g",
+      "handle": "citronovy-pepr-bio-70g"
+    },
+    "paprika-ostra-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821921517902",
+      "matchedBy": "image-code",
+      "title": "Paprika ostrá bio, mletá 50g",
+      "handle": "paprika-ostra-bio-mleta-50g"
+    },
+    "aladinovo-koreni-do-kavy-bio-baleni": {
+      "gid": "gid://shopify/Product/15821926236494",
+      "matchedBy": "image-code",
+      "title": "Aladinovo koření do kávy bio 35g",
+      "handle": "aladinovo-koreni-do-kavy-bio-35g"
+    },
+    "chilli-lusky-extra-ostre-cele-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821910409550",
+      "matchedBy": "image-code",
+      "title": "Chilli bio extra ostré, lusky 25g",
+      "handle": "chilli-bio-extra-ostre-lusky-25g"
+    },
+    "curry-sladke-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821921976654",
+      "matchedBy": "image-code",
+      "title": "Curry sladké bio 50g",
+      "handle": "curry-sladke-bio-50g"
+    },
+    "cesnek-suseny-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821907525966",
+      "matchedBy": "image-code",
+      "title": "Česnek bio, granulovaný 40g",
+      "handle": "cesnek-bio-granulovany-40g"
+    },
+    "12bylinna-sul-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821909328206",
+      "matchedBy": "image-code",
+      "title": "12bylinná sůl bio 120g",
+      "handle": "12bylinna-sul-bio-120g"
+    },
+    "pepr-ruzovy-cely-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821910180174",
+      "matchedBy": "image-code",
+      "title": "Pepř růžový bio, celý 20g",
+      "handle": "pepr-ruzovy-bio-cely-20g"
+    },
+    "vse-v-zelenem-salatove-koreni-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821922074958",
+      "matchedBy": "image-code",
+      "title": "Vše v zeleném, salátové koření bio 15g",
+      "handle": "vse-v-zelenem-salatove-koreni-bio-15g"
+    },
+    "rebricek-sypany-bio": {
+      "gid": "gid://shopify/Product/15821913784654",
+      "matchedBy": "image-code",
+      "title": "Řebříček bio syp. 50g",
+      "handle": "rebricek-bio-syp-50g"
+    },
+    "zdobeni-na-zeleninu-bio-baleni": {
+      "gid": "gid://shopify/Product/15821926924622",
+      "matchedBy": "image-code",
+      "title": "Zdobení na zeleninu bio 45 g",
+      "handle": "zdobeni-na-zeleninu-bio-45-g"
+    },
+    "salatove-koreni-mlete-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821907362126",
+      "matchedBy": "image-code",
+      "title": "Salátové koření mleté bio 35g",
+      "handle": "salatove-koreni-mlete-bio-35g"
+    },
+    "fenykl-cely-sypany-bio": {
+      "gid": "gid://shopify/Product/15821912932686",
+      "matchedBy": "image-code",
+      "title": "Fenykl bio syp. 200g",
+      "handle": "fenykl-bio-syp-200g"
+    },
+    "mata-okrouhlolista-sypana-bio": {
+      "gid": "gid://shopify/Product/15821912998222",
+      "matchedBy": "image-code",
+      "title": "Máta vonná bio syp. 50g",
+      "handle": "mata-vonna-bio-syp-50g"
+    },
+    "koreni-na-zimni-zeleninu-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821933183310",
+      "matchedBy": "image-code",
+      "title": "Koření na zimní zeleninu bio 40 g",
+      "handle": "koreni-na-zimni-zeleninu-bio-40-g"
+    },
+    "skorice-cejlon-cela-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821907689806",
+      "matchedBy": "image-code",
+      "title": "Skořice Cejlon bio, celá 18 g",
+      "handle": "skorice-cejlon-bio-cela-18-g"
+    },
+    "andel-strazny-smes-kvetu-a-koreni-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821912539470",
+      "matchedBy": "image-code",
+      "title": "Anděl strážný - směs květů a koření bio 40g",
+      "handle": "andel-strazny-smes-kvetu-a-koreni-bio-40g"
+    },
+    "curry-ostre-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821921911118",
+      "matchedBy": "image-code",
+      "title": "Curry ostré bio 50g",
+      "handle": "curry-ostre-bio-50g"
+    },
+    "stesti-smes-kvetu-a-koreni-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821912310094",
+      "matchedBy": "image-code",
+      "title": "Štěstí – směs květů a koření bio 35g",
+      "handle": "stesti-smes-kvetu-a-koreni-bio-35g"
+    },
+    "lajosovo-gulasove-koreni-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821914341710",
+      "matchedBy": "image-code",
+      "title": "Lajošovo gulášové koření bio 50g",
+      "handle": "lajosovo-gulasove-koreni-bio-50g"
+    },
+    "koreni-na-kimci-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821933478222",
+      "matchedBy": "image-code",
+      "title": "Koření na kimči bio 80 g",
+      "handle": "koreni-na-kimci-bio-80-g"
+    },
+    "koreni-na-nakladani-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821933445454",
+      "matchedBy": "image-code",
+      "title": "Koření na nakládání bio 65 g",
+      "handle": "koreni-na-nakladani-bio-65-g"
+    },
+    "provensalske-koreni-bio-baleni": {
+      "gid": "gid://shopify/Product/15821927743822",
+      "matchedBy": "image-code",
+      "title": "Provensálské koření bio 20 g",
+      "handle": "provensalske-koreni-bio-20-g"
+    },
+    "pepr-cerny-cely-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821921616206",
+      "matchedBy": "image-code",
+      "title": "Pepř černý bio, celý 55g",
+      "handle": "pepr-cerny-bio-cely-55g"
+    },
+    "balzam-na-nervy-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821914014030",
+      "matchedBy": "image-code",
+      "title": "Balzám na nervy® bio 27g porc.dvoukomorový",
+      "handle": "balzam-na-nervy-bio-27g-porcdvoukomorovy"
+    },
+    "seminka-horcice-zlute-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821915128142",
+      "matchedBy": "image-code",
+      "title": "Hořčice žlutá bio, semínka 120g",
+      "handle": "horcice-zluta-bio-seminka-120g"
+    },
+    "zazvor-pohoda-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821920731470",
+      "matchedBy": "image-code",
+      "title": "Zázvor Pohoda bio 32,4g porc. dvoukomorový",
+      "handle": "zazvor-pohoda-bio-324g-porc-dvoukomorovy"
+    },
+    "fenykl-cely-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821907493198",
+      "matchedBy": "image-code",
+      "title": "Fenykl bio 40g",
+      "handle": "fenykl-bio-40g"
+    },
+    "na-kute-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821923156302",
+      "matchedBy": "image-code",
+      "title": "Na kutě Biorarášci bio 28,8g porc. dvoukomorový",
+      "handle": "na-kute-biorarasci-bio-288g-porc-dvoukomorovy"
+    },
+    "cepice-plna-spanku-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821913981262",
+      "matchedBy": "image-code",
+      "title": "Čepice plná spánku bio 27g porc.dvoukomorový",
+      "handle": "cepice-plna-spanku-bio-27g-porcdvoukomorovy"
+    },
+    "ruze-kvet-poupata-sypany-bio": {
+      "gid": "gid://shopify/Product/15821913063758",
+      "matchedBy": "image-code",
+      "title": "Růže květ (poupata) bio syp. 30g",
+      "handle": "ruze-kvet-poupata-bio-syp-30g"
+    },
+    "single-origin-nicaragua-kava-zrnkova-bio-baleni": {
+      "gid": "gid://shopify/Product/15821915881806",
+      "matchedBy": "image-code",
+      "title": "Káva Single Origin Nicaragua bio, zrnková 250g",
+      "handle": "kava-single-origin-nicaragua-bio-zrnkova-250g"
+    },
+    "pomeranc-etericky-olej-bio": {
+      "gid": "gid://shopify/Product/15821911490894",
+      "matchedBy": "image-code",
+      "title": "Pomeranč bio éterický olej 10ml",
+      "handle": "pomeranc-bio-etericky-olej-10ml"
+    },
+    "citronova-trava-etericky-olej-bio": {
+      "gid": "gid://shopify/Product/15821911327054",
+      "matchedBy": "image-code",
+      "title": "Citronová tráva bio éterický olej 10ml",
+      "handle": "citronova-trava-bio-etericky-olej-10ml"
+    },
+    "zlaty-kurkumovy-sen-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821917618510",
+      "matchedBy": "image-code",
+      "title": "Zlatý kurkumový sen bio 36 g porc. dvoukomorový",
+      "handle": "zlaty-kurkumovy-sen-bio-36-g-porc-dvoukomorovy"
+    },
+    "zazvor-kurkuma-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821920633166",
+      "matchedBy": "image-code",
+      "title": "Zázvor Kurkuma bio 32,4 g, porc. dvoukomorový",
+      "handle": "zazvor-kurkuma-bio-324-g-porc-dvoukomorovy"
+    },
+    "zlaty-kurkumovy-sen-sypany-bio": {
+      "gid": "gid://shopify/Product/15821917552974",
+      "matchedBy": "image-code",
+      "title": "Zlatý kurkumový sen bio syp. 120g",
+      "handle": "zlaty-kurkumovy-sen-bio-syp-120g"
+    },
+    "kurkuma-citron-sirup-bio": {
+      "gid": "gid://shopify/Product/15821920338254",
+      "matchedBy": "image-code",
+      "title": "Kurkuma - citron sirup bio 500 ml",
+      "handle": "kurkuma-citron-sirup-bio-500-ml"
+    },
+    "kurkuma-latte-zazvor-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821917225294",
+      "matchedBy": "image-code",
+      "title": "Kurkuma Latte - zázvor bio 60g",
+      "handle": "kurkuma-latte-zazvor-bio-60g"
+    },
+    "kurkuma-mleta-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821907820878",
+      "matchedBy": "image-code",
+      "title": "Kurkuma bio 40g",
+      "handle": "kurkuma-bio-40g"
+    },
+    "ras-el-hanout-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821918404942",
+      "matchedBy": "image-code",
+      "title": "Ras el hanout bio 38g",
+      "handle": "ras-el-hanout-bio-38g"
+    },
+    "zazvor-mlety-bio-baleni": {
+      "gid": "gid://shopify/Product/15821926793550",
+      "matchedBy": "image-code",
+      "title": "Zázvor bio, mletý 30 g",
+      "handle": "zazvor-bio-mlety-30-g"
+    },
+    "zazvor-energie-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821920797006",
+      "matchedBy": "image-code",
+      "title": "Zázvor Energie bio 32,4 g, porc. dvoukomorový",
+      "handle": "zazvor-energie-bio-324-g-porc-dvoukomorovy"
+    },
+    "zazvor-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821922140494",
+      "matchedBy": "image-code",
+      "title": "Zázvor bio 23,4g porc. dvoukomorový",
+      "handle": "zazvor-bio-234g-porc-dvoukomorovy"
+    },
+    "english-tea-assam-cerny-caj-bio-porcovany-dvoukomorovy2": {
+      "gid": "gid://shopify/Product/15821921026382",
+      "matchedBy": "image-code",
+      "title": "Silný Assam bio, černý čaj, 30,6 g porc. dvoukomorový",
+      "handle": "silny-assam-bio-cerny-caj-306-g-porc-dvoukomorovy"
+    },
+    "zazvor-citron-sirup-bio": {
+      "gid": "gid://shopify/Product/15821911982414",
+      "matchedBy": "image-code",
+      "title": "Zázvor-citron sirup bio 500 ml",
+      "handle": "zazvor-citron-sirup-bio-500-ml"
+    },
+    "zazvor-citron-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821920895310",
+      "matchedBy": "image-code",
+      "title": "Zázvor–citron bio 32,4g porc. dvoukomorový",
+      "handle": "zazvorcitron-bio-324g-porc-dvoukomorovy"
+    },
+    "zele-medvidci-stesti-se-zazvorem-bio-baleni": {
+      "gid": "gid://shopify/Product/15821911589198",
+      "matchedBy": "image-code",
+      "title": "Gumoví medvídci se zázvorem - Štěstí bio 100g",
+      "handle": "gumovi-medvidci-se-zazvorem-stesti-bio-100g"
+    },
+    "zazvor-kandovany-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821908181326",
+      "matchedBy": "image-code",
+      "title": "Zázvor kandovaný bio 75g",
+      "handle": "zazvor-kandovany-bio-75g"
+    },
+    "sitova-taska-bio": {
+      "gid": "gid://shopify/Product/15821935214926",
+      "matchedBy": "image-code",
+      "title": "Síťová taška",
+      "handle": "sitova-taska"
+    },
+    "badyan-cely-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821908115790",
+      "matchedBy": "image-code",
+      "title": "Badyán bio 25g",
+      "handle": "badyan-bio-25g"
+    },
+    "kouzelne-kvety-smes-kvetu-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821925384526",
+      "matchedBy": "image-code",
+      "title": "Kouzelné květy – směs květů bio 7 g",
+      "handle": "kouzelne-kvety-smes-kvetu-bio-7-g"
+    },
+    "vsechno-nejmilejsi-smes-kvetu-a-koreni-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821911884110",
+      "matchedBy": "image-code",
+      "title": "Všechno nejmilejší - směs květů a koření bio 40g",
+      "handle": "vsechno-nejmilejsi-smes-kvetu-a-koreni-bio-40g"
+    },
+    "sila-kvetu-smes-kvetu-a-koreni-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821911621966",
+      "matchedBy": "image-code",
+      "title": "Síla květů - směs květů a koření bio 35g",
+      "handle": "sila-kvetu-smes-kvetu-a-koreni-bio-35g"
+    },
+    "kopriva-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821919682894",
+      "matchedBy": "image-code",
+      "title": "Kopřiva bio 18g porc. dvoukomorový",
+      "handle": "kopriva-bio-18g-porc-dvoukomorovy"
+    },
+    "pampeliska-list-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821923352910",
+      "matchedBy": "image-code",
+      "title": "Pampeliška list bio 21,6 g, porc. dvoukomorový",
+      "handle": "pampeliska-list-bio-216-g-porc-dvoukomorovy"
+    },
+    "galgan-mlety-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821909590350",
+      "matchedBy": "image-code",
+      "title": "Galgán bio, mletý 35g",
+      "handle": "galgan-bio-mlety-35g"
+    },
+    "rakytnikovy-pozitek-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821913850190",
+      "matchedBy": "image-code",
+      "title": "Rakytníkový požitek bio 54g porc. dvoukomorový",
+      "handle": "rakytnikovy-pozitek-bio-54g-porc-dvoukomorovy"
+    },
+    "mata-peprna-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821906542926",
+      "matchedBy": "image-code",
+      "title": "Máta peprná bio 18 g, porc. dvoukomorový",
+      "handle": "mata-peprna-bio-18-g-porc-dvoukomorovy"
+    },
+    "knedlik-v-krku-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821913948494",
+      "matchedBy": "image-code",
+      "title": "Knedlík v krku bio 27g porc. dvoukomorový",
+      "handle": "knedlik-v-krku-bio-27g-porc-dvoukomorovy"
+    },
+    "salvej-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821916701006",
+      "matchedBy": "image-code",
+      "title": "Šalvěj bio 18 g porc. dvoukomorový",
+      "handle": "salvej-bio-18-g-porc-dvoukomorovy"
+    },
+    "medunka-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821906411854",
+      "matchedBy": "image-code",
+      "title": "Meduňka bio 21,6g porc. dvoukomorový",
+      "handle": "medunka-bio-216g-porc-dvoukomorovy"
+    },
+    "dobromysl-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821911916878",
+      "matchedBy": "image-code",
+      "title": "Oregano bio 18g",
+      "handle": "oregano-bio-18g"
+    },
+    "pro-dobry-pocit-v-brise-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821914112334",
+      "matchedBy": "image-code",
+      "title": "Pro dobrý pocit v břiše bio 27g porc.dvoukomorový",
+      "handle": "pro-dobry-pocit-v-brise-bio-27g-porcdvoukomorovy"
+    },
+    "fenykl-anyz-kmin-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821922599246",
+      "matchedBy": "image-code",
+      "title": "Fenykl–anýz–kmín bio 30,6g porc. dvoukomorový",
+      "handle": "fenyklanyzkmin-bio-306g-porc-dvoukomorovy"
+    },
+    "matove-trio-bio-baleni2": {
+      "gid": "gid://shopify/Product/15821931774286",
+      "matchedBy": "image-code",
+      "title": "Mátové trio bio 21,6 g porc. dvoukomorový",
+      "handle": "matove-trio-bio-216-g-porc-dvoukomorovy"
+    },
+    "stredomorska-kouzelna-sul-s-kvety-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821911163214",
+      "matchedBy": "image-code",
+      "title": "Středomořská kouzelná sůl s květy bio 120g",
+      "handle": "stredomorska-kouzelna-sul-s-kvety-bio-120g"
+    },
+    "kmin-cely-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821907132750",
+      "matchedBy": "image-code",
+      "title": "Kmín bio, celý 60g",
+      "handle": "kmin-bio-cely-60g"
+    },
+    "koreni-na-pizzu-a-testoviny-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821925712206",
+      "matchedBy": "image-code",
+      "title": "Koření na pizzu a těstoviny bio 20g",
+      "handle": "koreni-na-pizzu-a-testoviny-bio-20g"
+    },
+    "stesti-je-byt-zenou-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821918372174",
+      "matchedBy": "image-code",
+      "title": "Štěstí je® být ženou 30,6 g porc. dvoukomorový",
+      "handle": "stesti-je-byt-zenou-306-g-porc-dvoukomorovy"
+    },
+    "fenykl-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821919715662",
+      "matchedBy": "image-code",
+      "title": "Fenykl bio 27g porc. dvoukomorový",
+      "handle": "fenykl-bio-27g-porc-dvoukomorovy"
+    },
+    "jalovec-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821912834382",
+      "matchedBy": "image-code",
+      "title": "Jalovec bio, celý 35g",
+      "handle": "jalovec-bio-cely-35g"
+    },
+    "ibisek-sypany-bio3": {
+      "gid": "gid://shopify/Product/15821906903374",
+      "matchedBy": "image-code",
+      "title": "Ibišek květ bio syp. 80g",
+      "handle": "ibisek-kvet-bio-syp-80g"
+    },
+    "english-tea-assam-cerny-caj-sypany-bio": {
+      "gid": "gid://shopify/Product/15821916406094",
+      "matchedBy": "image-code",
+      "title": "Silný Assam bio, černý čaj, 95g syp.",
+      "handle": "silny-assam-bio-cerny-caj-95g-syp"
+    },
+    "koreni-na-vejce-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821922763086",
+      "matchedBy": "image-code",
+      "title": "Koření na vejce bio 70g",
+      "handle": "koreni-na-vejce-bio-70g"
+    },
+    "velikonocni-zajicek-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821915062606",
+      "matchedBy": "image-code",
+      "title": "Jarní překvapení bio 27 g porc. dvoukomorový",
+      "handle": "jarni-prekvapeni-bio-27-g-porc-dvoukomorovy"
+    },
+    "videnske-pokuseni-r-espresso-prazena-kava-zrnkova-bio-baleni": {
+      "gid": "gid://shopify/Product/15821927645518",
+      "matchedBy": "image-code",
+      "title": "Káva Vídeňské pokušení® Espresso bio, pražená, zrnková 500 g",
+      "handle": "kava-videnske-pokuseni-espresso-bio-prazena-zrnkova-500-g"
+    },
+    "skorice-cassia-mleta-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821911949646",
+      "matchedBy": "image-code",
+      "title": "Skořice Cassia bio, mletá 40g",
+      "handle": "skorice-cassia-bio-mleta-40g"
+    },
+    "bobkovy-list-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821907755342",
+      "matchedBy": "image-code",
+      "title": "Bobkový list bio 10g",
+      "handle": "bobkovy-list-bio-10g"
+    },
+    "pekne-odpoledne-bylinny-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821913194830",
+      "matchedBy": "image-code",
+      "title": "Pěkné odpoledne bio 27 g, porc. dvoukomorový",
+      "handle": "pekne-odpoledne-bio-27-g-porc-dvoukomorovy"
+    },
+    "stesti-je-poznat-zivot-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821918110030",
+      "matchedBy": "image-code",
+      "title": "Štěstí je® poznat život bio 27 g porc. dvoukomorový",
+      "handle": "stesti-je-poznat-zivot-bio-27-g-porc-dvoukomorovy"
+    },
+    "lipa-kvet-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821919879502",
+      "matchedBy": "image-code",
+      "title": "Lípa květ bio 27g porc. dvoukomorový",
+      "handle": "lipa-kvet-bio-27g-porc-dvoukomorovy"
+    },
+    "slez-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821919584590",
+      "matchedBy": "image-code",
+      "title": "Sléz bio 27g porc.dvoukomorový",
+      "handle": "slez-bio-27g-porcdvoukomorovy"
+    },
+    "cibule-bio-baleni": {
+      "gid": "gid://shopify/Product/15821931872590",
+      "matchedBy": "image-code",
+      "title": "Cibule sušená bio 75 g",
+      "handle": "cibule-susena-bio-75-g"
+    },
+    "kuc-kuc-bylinna-smes-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821909852494",
+      "matchedBy": "image-code",
+      "title": "Kuc - kuc® bio 27g porc.dvoukomorový",
+      "handle": "kuc-kuc-bio-27g-porcdvoukomorovy"
+    },
+    "knedlik-v-krku-sirup-bio": {
+      "gid": "gid://shopify/Product/15821931348302",
+      "matchedBy": "image-code",
+      "title": "Zase dobře! Knedlík v krku sirup bio 250 ml",
+      "handle": "zase-dobre-knedlik-v-krku-sirup-bio-250-ml"
+    },
+    "usmrkanek-r-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821922795854",
+      "matchedBy": "image-code",
+      "title": "Usmrkánek® Biorarášci bio 21,6g porc. dvoukomorový",
+      "handle": "usmrkanek-biorarasci-bio-216g-porc-dvoukomorovy"
+    },
+    "eukalyptus-citriodora-etericky-olej-bio": {
+      "gid": "gid://shopify/Product/15821911392590",
+      "matchedBy": "image-code",
+      "title": "Eukalyptus citriodora bio éterický olej 10ml",
+      "handle": "eukalyptus-citriodora-bio-etericky-olej-10ml"
+    },
+    "darjeeling-cerny-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821909098830",
+      "matchedBy": "image-code",
+      "title": "Neodolatelný Darjeeling bio, černý čaj,  27 g porc. dvoukomorový",
+      "handle": "neodolatelny-darjeeling-bio-cerny-caj-27-g-porc-dvoukomorovy"
+    },
+    "rericha-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821908934990",
+      "matchedBy": "image-code",
+      "title": "Řeřicha bio 120 g",
+      "handle": "rericha-bio-120-g"
+    },
+    "redkvicka-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821915521358",
+      "matchedBy": "image-code",
+      "title": "Ředkvička bio 120 g",
+      "handle": "redkvicka-bio-120-g"
+    },
+    "rukola-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821915554126",
+      "matchedBy": "image-code",
+      "title": "Rukola bio 120 g",
+      "handle": "rukola-bio-120-g"
+    },
+    "seminka-horcice-zlute-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821914964302",
+      "matchedBy": "image-code",
+      "title": "Hořčice bio, k nakličování 120 g",
+      "handle": "horcice-bio-k-naklicovani-120-g"
+    },
+    "jetel-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821917487438",
+      "matchedBy": "image-code",
+      "title": "Jetel bio 120 g",
+      "handle": "jetel-bio-120-g"
+    },
+    "mungo-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821915423054",
+      "matchedBy": "image-code",
+      "title": "Mungo bio 120 g",
+      "handle": "mungo-bio-120-g"
+    },
+    "alfalfa-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821906248014",
+      "matchedBy": "image-code",
+      "title": "Alfalfa bio 120 g",
+      "handle": "alfalfa-bio-120-g"
+    },
+    "piskavice-recke-seno-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821912736078",
+      "matchedBy": "image-code",
+      "title": "Pískavice řecké seno bio, k nakličování 120 g",
+      "handle": "piskavice-recke-seno-bio-k-naklicovani-120-g"
+    },
+    "smes-seminek-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821915226446",
+      "matchedBy": "image-code",
+      "title": "Směs semínek bio 120 g",
+      "handle": "smes-seminek-bio-120-g"
+    },
+    "klicive-trio-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821930922318",
+      "matchedBy": "image-code",
+      "title": "Klíčivé trio bio 120 g",
+      "handle": "klicive-trio-bio-120-g"
+    },
+    "kopriva-citron-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821935935822",
+      "matchedBy": "image-code",
+      "title": "Kopřiva Citron bio 21,6 g, porc. dvoukomorový",
+      "handle": "kopriva-citron-bio-216-g-porc-dvoukomorovy"
+    },
+    "vlna-elanu-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821930594638",
+      "matchedBy": "image-code",
+      "title": "Vlna elánu bio 23,4 g porc. dvoukomorový",
+      "handle": "vlna-elanu-bio-234-g-porc-dvoukomorovy"
+    },
+    "prirozene-horke-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821935313230",
+      "matchedBy": "image-code",
+      "title": "Přirozeně hořké bio 32,4 g, porc. dvoukomorový",
+      "handle": "prirozene-horke-bio-324-g-porc-dvoukomorovy"
+    },
+    "jiskra-inspirace-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821930496334",
+      "matchedBy": "image-code",
+      "title": "Jiskra inspirace bio 32,4 g porc. dvoukomorový",
+      "handle": "jiskra-inspirace-bio-324-g-porc-dvoukomorovy"
+    },
+    "chvilka-relaxace-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821930692942",
+      "matchedBy": "image-code",
+      "title": "Chvilka relaxace bio 18 g porc. dvoukomorový",
+      "handle": "chvilka-relaxace-bio-18-g-porc-dvoukomorovy"
+    },
+    "zelena-kava-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821916340558",
+      "matchedBy": "image-code",
+      "title": "Zelená káva bio 54 g, porc. dvoukomorový",
+      "handle": "zelena-kava-bio-54-g-porc-dvoukomorovy"
+    },
+    "postni-cas-bylinna-smes-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821922566478",
+      "matchedBy": "image-code",
+      "title": "Postní čas bio 27 g porc. dvoukomorový",
+      "handle": "postni-cas-bio-27-g-porc-dvoukomorovy"
+    },
+    "ocista-duse-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821914046798",
+      "matchedBy": "image-code",
+      "title": "Očista duše bio 27 g, porc. dvoukomorový",
+      "handle": "ocista-duse-bio-27-g-porc-dvoukomorovy"
+    },
+    "prirozene-horke-bio-baleni": {
+      "gid": "gid://shopify/Product/15821935378766",
+      "matchedBy": "image-code",
+      "title": "Přirozeně hořké, kořenící přípravek bio 60 g",
+      "handle": "prirozene-horke-korenici-pripravek-bio-60-g"
+    },
+    "zeleny-caj-jasmin-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821916569934",
+      "matchedBy": "image-code",
+      "title": "Půvabná Jasmín bio, ovoněný zelený čaj,  27 g porc. dvoukomorový",
+      "handle": "puvabna-jasmin-bio-ovoneny-zeleny-caj-27-g-porc-dvoukomorovy"
+    },
+    "sipek-ibisek-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821909000526",
+      "matchedBy": "image-code",
+      "title": "Šípek - ibišek bio 54g porc. dvoukomorový",
+      "handle": "sipek-ibisek-bio-54g-porc-dvoukomorovy"
+    },
+    "adventni-ovocny-caj-bio-porcovany-dvoukomorovy2": {
+      "gid": "gid://shopify/Product/15821928726862",
+      "matchedBy": "image-code",
+      "title": "Adventní ovocný čaj bio 50,4 g, porc. dvoukomorový",
+      "handle": "adventni-ovocny-caj-bio-504-g-porc-dvoukomorovy"
+    },
+    "matcha-sirup-bio-lahev": {
+      "gid": "gid://shopify/Product/15821935640910",
+      "matchedBy": "image-code",
+      "title": "Matcha sirup bio 250 ml",
+      "handle": "matcha-sirup-bio-250-ml"
+    },
+    "kurkuma-latte-vanilka-bio-doza": {
+      "gid": "gid://shopify/Product/15821917290830",
+      "matchedBy": "image-code",
+      "title": "Kurkuma Latte - vanilka bio 60g dóza",
+      "handle": "kurkuma-latte-vanilka-bio-60g-doza"
+    },
+    "chai-koreneny-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821934231886",
+      "matchedBy": "image-code",
+      "title": "Chai kořeněný bio 32,4 g, porc. dvoukomorový",
+      "handle": "chai-koreneny-bio-324-g-porc-dvoukomorovy"
+    },
+    "chai-cerny-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821934330190",
+      "matchedBy": "image-code",
+      "title": "Chai černý čaj bio 32,4 g, porc. dvoukomorový",
+      "handle": "chai-cerny-caj-bio-324-g-porc-dvoukomorovy"
+    },
+    "chai-rooibos-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821934297422",
+      "matchedBy": "image-code",
+      "title": "Chai rooibos bio 32,4 g, porc. dvoukomorový",
+      "handle": "chai-rooibos-bio-324-g-porc-dvoukomorovy"
+    },
+    "cerny-caj-broskev-sirup-bio": {
+      "gid": "gid://shopify/Product/15821913751886",
+      "matchedBy": "image-code",
+      "title": "Černý čaj - broskev sirup bio 500 ml",
+      "handle": "cerny-caj-broskev-sirup-bio-500-ml"
+    },
+    "dekuji-bylinny-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821911261518",
+      "matchedBy": "image-code",
+      "title": "Děkuji bio 27g porc. dvoukomorový",
+      "handle": "dekuji-bio-27g-porc-dvoukomorovy"
+    },
+    "dekuji-maminko-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821933543758",
+      "matchedBy": "image-code",
+      "title": "Děkuji, maminko bio 27 g porc. dvoukomorový",
+      "handle": "dekuji-maminko-bio-27-g-porc-dvoukomorovy"
+    },
+    "darkova-baleni-2-caju-pro-maminku-bio": {
+      "gid": "gid://shopify/Product/15821922500942",
+      "matchedBy": "image-code",
+      "title": "Dárkové balení 2 čajů - Pro maminku",
+      "handle": "darkove-baleni-2-caju-pro-maminku"
+    },
+    "andel-strazny-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821908148558",
+      "matchedBy": "image-code",
+      "title": "Anděl strážný® bio 27 g porc. dvoukomorový",
+      "handle": "andel-strazny-bio-27-g-porc-dvoukomorovy"
+    },
+    "zakratko-maminkou-r-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821922992462",
+      "matchedBy": "image-code",
+      "title": "Zakrátko maminkou® Biorarášci bio 21,6g porc. dvoukomorový",
+      "handle": "zakratko-maminkou-biorarasci-bio-216g-porc-dvoukomorovy"
+    },
+    "caj-stesti-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821908509006",
+      "matchedBy": "image-code",
+      "title": "Čaj štěstí bio 27 g porc. dvoukomorový",
+      "handle": "caj-stesti-bio-27-g-porc-dvoukomorovy"
+    },
+    "divoka-lilli-sirup-bio-baleni": {
+      "gid": "gid://shopify/Product/15821933969742",
+      "matchedBy": "image-code",
+      "title": "Divoká Lilli sirup bio 500 ml",
+      "handle": "divoka-lilli-sirup-bio-500-ml"
+    },
+    "cerny-bez-kvet-sirup-bio": {
+      "gid": "gid://shopify/Product/15821913686350",
+      "matchedBy": "image-code",
+      "title": "Černý bez květ sirup bio 500 ml",
+      "handle": "cerny-bez-kvet-sirup-bio-500-ml"
+    },
+    "zeleny-caj-jemny-cinsky-sypany-bio": {
+      "gid": "gid://shopify/Product/15821911032142",
+      "matchedBy": "image-code",
+      "title": "Pravý čínský zelený čaj bio 100 g, syp.",
+      "handle": "pravy-cinsky-zeleny-caj-bio-100-g-syp"
+    },
+    "leharko-bio": {
+      "gid": "gid://shopify/Product/15821934526798",
+      "matchedBy": "image-code",
+      "title": "Lehárko éterický olej bio 10 ml",
+      "handle": "leharko-etericky-olej-bio-10-ml"
+    },
+    "bergamot-etericky-olej-bio": {
+      "gid": "gid://shopify/Product/15821911294286",
+      "matchedBy": "image-code",
+      "title": "Bergamot bio éterický olej 10ml",
+      "handle": "bergamot-bio-etericky-olej-10ml"
+    },
+    "jarni-polibeni-bylinna-smes-sypana-bio": {
+      "gid": "gid://shopify/Product/15821911818574",
+      "matchedBy": "image-code",
+      "title": "Jarní políbení bio syp. 80g",
+      "handle": "jarni-polibeni-bio-syp-80g"
+    },
+    "vrele-objeti-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821933871438",
+      "matchedBy": "image-code",
+      "title": "Vřelé objetí bio 27 g, porc. dvoukomorový",
+      "handle": "vrele-objeti-bio-27-g-porc-dvoukomorovy"
+    },
+    "stesti-je-r-tancit-v-desti-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821929021774",
+      "matchedBy": "image-code",
+      "title": "Štěstí je® tančit v dešti bio 27 g porc. dvoukomorový",
+      "handle": "stesti-je-tancit-v-desti-bio-27-g-porc-dvoukomorovy"
+    },
+    "kava-videnske-pokuseni-instantni-bio-sklenice": {
+      "gid": "gid://shopify/Product/15821911556430",
+      "matchedBy": "image-code",
+      "title": "Káva Vídeňské pokušení instantní bio 100g",
+      "handle": "kava-videnske-pokuseni-instantni-bio-100g"
+    },
+    "pro-klid-zeny-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821914079566",
+      "matchedBy": "image-code",
+      "title": "Pro klid ženy bio 27g porc. dvoukomorový",
+      "handle": "pro-klid-zeny-bio-27g-porc-dvoukomorovy"
+    },
+    "smes-kvetu-sypana-bio": {
+      "gid": "gid://shopify/Product/15821908377934",
+      "matchedBy": "image-code",
+      "title": "Směs květů bio syp. 40g",
+      "handle": "smes-kvetu-bio-syp-40g"
+    },
+    "darkova-kazeta-cajova-stesti-je-bio": {
+      "gid": "gid://shopify/Product/15821920141646",
+      "matchedBy": "image-code",
+      "title": "Dárková kazeta čajová Štěstí je...",
+      "handle": "darkova-kazeta-cajova-stesti-je"
+    },
+    "caj-stesti-sypany-bio2": {
+      "gid": "gid://shopify/Product/15821908541774",
+      "matchedBy": "image-code",
+      "title": "Čaj štěstí bio syp. 50g",
+      "handle": "caj-stesti-bio-syp-50g"
+    },
+    "stesti-je-sladce-snit-bio": {
+      "gid": "gid://shopify/Product/15821922697550",
+      "matchedBy": "image-code",
+      "title": "Štěstí je® sladce snít bio 27 g porc. dvoukomorový",
+      "handle": "stesti-je-sladce-snit-bio-27-g-porc-dvoukomorovy"
+    },
+    "oda-na-bylinky-sirup-bio-baleni": {
+      "gid": "gid://shopify/Product/15821933936974",
+      "matchedBy": "image-code",
+      "title": "Óda na bylinky sirup bio 500 ml",
+      "handle": "oda-na-bylinky-sirup-bio-500-ml"
+    },
+    "stesti-je-mit-pratele-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821918961998",
+      "matchedBy": "image-code",
+      "title": "Štěstí je® mít přátele bio 27 g porc. dvoukomorový",
+      "handle": "stesti-je-mit-pratele-bio-27-g-porc-dvoukomorovy"
+    },
+    "brusinka-sirup-bio": {
+      "gid": "gid://shopify/Product/15821913489742",
+      "matchedBy": "image-code",
+      "title": "Brusinka sirup bio 500 ml",
+      "handle": "brusinka-sirup-bio-500-ml"
+    },
+    "stesti-je-objevit-svobodu-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821918241102",
+      "matchedBy": "image-code",
+      "title": "Štěstí je® objevit svobodu 27 g porc. dvoukomorový",
+      "handle": "stesti-je-objevit-svobodu-27-g-porc-dvoukomorovy"
+    },
+    "kola-sirup-bio-baleni": {
+      "gid": "gid://shopify/Product/15821931938126",
+      "matchedBy": "image-code",
+      "title": "Kola sirup bio 500 ml",
+      "handle": "kola-sirup-bio-500-ml"
+    },
+    "stesti-je-naplnit-sve-sny-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821918175566",
+      "matchedBy": "image-code",
+      "title": "Štěstí je® naplnit své sny 30,6 g porc. dvoukomorový",
+      "handle": "stesti-je-naplnit-sve-sny-306-g-porc-dvoukomorovy"
+    },
+    "cin-cin-sirup-bio": {
+      "gid": "gid://shopify/Product/15821931512142",
+      "matchedBy": "image-code",
+      "title": "Čin čin sirup bio 500 ml",
+      "handle": "cin-cin-sirup-bio-500-ml"
+    },
+    "stesti-je-heavy-metal-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821919060302",
+      "matchedBy": "image-code",
+      "title": "Štěstí je® Heavy Metal bio 27 g porc. dvoukomorový",
+      "handle": "stesti-je-heavy-metal-bio-27-g-porc-dvoukomorovy"
+    },
+    "chakalaka-bio-baleni": {
+      "gid": "gid://shopify/Product/15821930234190",
+      "matchedBy": "image-code",
+      "title": "Chakalaka bio 65 g",
+      "handle": "chakalaka-bio-65-g"
+    },
+    "stesti-je-r-rodinna-pohoda-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821928956238",
+      "matchedBy": "image-code",
+      "title": "Štěstí je® rodinná pohoda bio 27 g porc. dvoukomorový",
+      "handle": "stesti-je-rodinna-pohoda-bio-27-g-porc-dvoukomorovy"
+    },
+    "umami-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821929972046",
+      "matchedBy": "image-code",
+      "title": "Umami bio 60 g",
+      "handle": "umami-bio-60-g"
+    },
+    "stesti-je-zklidnit-mysl-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821918306638",
+      "matchedBy": "image-code",
+      "title": "Štěstí je® zklidnit mysl 30,6 g porc. dvoukomorový",
+      "handle": "stesti-je-zklidnit-mysl-306-g-porc-dvoukomorovy"
+    },
+    "bylinkove-koreni-na-pomazanky-bio-krabicka2": {
+      "gid": "gid://shopify/Product/15821925253454",
+      "matchedBy": "image-code",
+      "title": "Bylinkové koření na pomazánky bio 50g",
+      "handle": "bylinkove-koreni-na-pomazanky-bio-50g"
+    },
+    "stesti-je-zit-v-harmonii-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821919125838",
+      "matchedBy": "image-code",
+      "title": "Štěstí je® žít v harmonii bio 27 g porc. dvoukomorový",
+      "handle": "stesti-je-zit-v-harmonii-bio-27-g-porc-dvoukomorovy"
+    },
+    "stesti-je-r-umet-si-vybrat-bio-poznavaci-sada": {
+      "gid": "gid://shopify/Product/15821929185614",
+      "matchedBy": "image-code",
+      "title": "Štěstí je® umět si vybrat bio 31,4 g porc. dvoukomorový",
+      "handle": "stesti-je-umet-si-vybrat-bio-314-g-porc-dvoukomorovy"
+    },
+    "vrbovka-malokveta-sypana-bio": {
+      "gid": "gid://shopify/Product/15821913096526",
+      "matchedBy": "image-code",
+      "title": "Vrbovka malokvětá bio syp. 50g",
+      "handle": "vrbovka-malokveta-bio-syp-50g"
+    },
+    "rooibos-prirodni-sypany-bio": {
+      "gid": "gid://shopify/Product/15821906936142",
+      "matchedBy": "image-code",
+      "title": "Rooibos natur bio syp. 100g",
+      "handle": "rooibos-natur-bio-syp-100g"
+    },
+    "tymian-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821919977806",
+      "matchedBy": "image-code",
+      "title": "Tymián bio 21,6 g porc. dvoukomorový",
+      "handle": "tymian-bio-216-g-porc-dvoukomorovy"
+    },
+    "recky-horsky-caj-sypany-bio3": {
+      "gid": "gid://shopify/Product/15821906641230",
+      "matchedBy": "image-code",
+      "title": "Řecký horský čaj bio syp. 40g",
+      "handle": "recky-horsky-caj-bio-syp-40g"
+    },
+    "konopi-list-sypany-bio": {
+      "gid": "gid://shopify/Product/15821921190222",
+      "matchedBy": "image-code",
+      "title": "Konopí list bio syp. 40g",
+      "handle": "konopi-list-bio-syp-40g"
+    },
+    "konopi-list-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821920960846",
+      "matchedBy": "image-code",
+      "title": "Konopí list bio 27g porc. dvoukomorový",
+      "handle": "konopi-list-bio-27g-porc-dvoukomorovy"
+    },
+    "single-origin-nicaragua-kava-zrnkova-bio-baleni2": {
+      "gid": "gid://shopify/Product/15821915947342",
+      "matchedBy": "image-code",
+      "title": "Káva Single Origin Nicaragua bio, zrnková 1kg",
+      "handle": "kava-single-origin-nicaragua-bio-zrnkova-1kg"
+    },
+    "kontryhel-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821932167502",
+      "matchedBy": "image-code",
+      "title": "Kontryhel bio 21,6 g porc. dvoukomorový",
+      "handle": "kontryhel-bio-216-g-porc-dvoukomorovy"
+    },
+    "brusinkovy-pozitek-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821914767694",
+      "matchedBy": "image-code",
+      "title": "Brusinkový požitek bio 50,4g porc. dvoukomorový",
+      "handle": "brusinkovy-pozitek-bio-504g-porc-dvoukomorovy"
+    },
+    "cas-promeny-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821920600398",
+      "matchedBy": "image-code",
+      "title": "Čas proměny bio 27g porc. dvoukomorový",
+      "handle": "cas-promeny-bio-27g-porc-dvoukomorovy"
+    },
+    "salek-ulevy-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821916209486",
+      "matchedBy": "image-code",
+      "title": "Šálek úlevy® bio 27g porc. dvoukomorový",
+      "handle": "salek-ulevy-bio-27g-porc-dvoukomorovy"
+    },
+    "nadechnuti-v-lese-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821925810510",
+      "matchedBy": "image-code",
+      "title": "Nadechnutí v lese bio 21,6 g porc. dvoukomorový",
+      "handle": "nadechnuti-v-lese-bio-216-g-porc-dvoukomorovy"
+    },
+    "citronova-materidouska-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821934952782",
+      "matchedBy": "image-code",
+      "title": "Citronová mateřídouška bio 18 g, porc. dvoukomorový",
+      "handle": "citronova-materidouska-bio-18-g-porc-dvoukomorovy"
+    },
+    "zaklady-rovnovahy-bylinny-caj-sypany-bio2": {
+      "gid": "gid://shopify/Product/15821908476238",
+      "matchedBy": "image-code",
+      "title": "Základy rovnováhy bio syp. 50g",
+      "handle": "zaklady-rovnovahy-bio-syp-50g"
+    },
+    "dobra-nalada-bylinny-caj-sypany-bio2": {
+      "gid": "gid://shopify/Product/15821907067214",
+      "matchedBy": "image-code",
+      "title": "Dobrá nálada® bio syp. 50g",
+      "handle": "dobra-nalada-bio-syp-50g"
+    },
+    "hermanek-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821906313550",
+      "matchedBy": "image-code",
+      "title": "Heřmánek bio 14,4g porc. dvoukomorový",
+      "handle": "hermanek-bio-144g-porc-dvoukomorovy"
+    },
+    "medunka-verbena-levandule-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821935116622",
+      "matchedBy": "image-code",
+      "title": "Meduňka–verbena–levandule bio 23,4 g, porc. dvoukomorový",
+      "handle": "medunkaverbenalevandule-bio-234-g-porc-dvoukomorovy"
+    },
+    "cerny-bez-kvet-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821919813966",
+      "matchedBy": "image-code",
+      "title": "Černý bez květ bio 27g porc. dvoukomorový",
+      "handle": "cerny-bez-kvet-bio-27g-porc-dvoukomorovy"
+    },
+    "tymian-cerny-bez-salvej-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821935149390",
+      "matchedBy": "image-code",
+      "title": "Tymián Černý bez Šalvěj bio 23,4 g, porc. dvoukomorový",
+      "handle": "tymian-cerny-bez-salvej-bio-234-g-porc-dvoukomorovy"
+    },
+    "jitrocel-smrkove-jehlici-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821935182158",
+      "matchedBy": "image-code",
+      "title": "Jitrocel – smrkové jehličí bio 23,4 g, porc. dvoukomorový",
+      "handle": "jitrocel-smrkove-jehlici-bio-234-g-porc-dvoukomorovy"
+    },
+    "kouzelny-napoj-bylinna-smes-sypana-bio": {
+      "gid": "gid://shopify/Product/15821909950798",
+      "matchedBy": "image-code",
+      "title": "Kouzelný nápoj bio syp. 50g",
+      "handle": "kouzelny-napoj-bio-syp-50g"
+    },
+    "italske-koreni-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821926400334",
+      "matchedBy": "image-code",
+      "title": "Italské koření bio 20g",
+      "handle": "italske-koreni-bio-20g"
+    },
+    "tady-roste-radost-jubilejni-bylinny-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821917847886",
+      "matchedBy": "image-code",
+      "title": "Tady roste radost® bio 27g porc. dvoukomorový",
+      "handle": "tady-roste-radost-bio-27g-porc-dvoukomorovy"
+    },
+    "napoj-druidu-bylinny-caj-sypany-bio2": {
+      "gid": "gid://shopify/Product/15821908574542",
+      "matchedBy": "image-code",
+      "title": "Nápoj druidů bio syp. 50g",
+      "handle": "napoj-druidu-bio-syp-50g"
+    },
+    "kompoty-a-zavareniny-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821933510990",
+      "matchedBy": "image-code",
+      "title": "Kompoty a zavařeniny bio 55 g",
+      "handle": "kompoty-a-zavareniny-bio-55-g"
+    },
+    "kmin-krizovy-matersky-cumin-cely-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821911130446",
+      "matchedBy": "image-code",
+      "title": "Kmín římský bio, celý 40g",
+      "handle": "kmin-rimsky-bio-cely-40g"
+    },
+    "slunecni-pozdrav-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821913882958",
+      "matchedBy": "image-code",
+      "title": "Sluneční pozdrav bio 45 g, porc. dvoukomorový",
+      "handle": "slunecni-pozdrav-bio-45-g-porc-dvoukomorovy"
+    },
+    "koreni-na-peceni-teticky-anicky-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821914243406",
+      "matchedBy": "image-code",
+      "title": "Koření na pečeni tetičky Aničky bio 60g",
+      "handle": "koreni-na-peceni-teticky-anicky-bio-60g"
+    },
+    "tonkove-boby-mlete-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821932298574",
+      "matchedBy": "image-code",
+      "title": "Tonkové boby bio, mleté 35 g",
+      "handle": "tonkove-boby-bio-mlete-35-g"
+    },
+    "povzbudivy-english-breakfast-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821931675982",
+      "matchedBy": "image-code",
+      "title": "Povzbudivý English Breakfast, černý čaj bio, 32,4 g porc. dvoukomorový",
+      "handle": "povzbudivy-english-breakfast-cerny-caj-bio-324-g-porc-dvoukomorovy"
+    },
+    "svezi-lady-green-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821930987854",
+      "matchedBy": "image-code",
+      "title": "Svěží Lady Green bio, ochucený zelený čaj, 21,6 g porc. dvoukomorový",
+      "handle": "svezi-lady-green-bio-ochuceny-zeleny-caj-216-g-porc-dvoukomorovy"
+    },
+    "earl-grey-cerny-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821906739534",
+      "matchedBy": "image-code",
+      "title": "Vybraný Earl Grey bio, aromatizovaný černý čaj 27 g porc. dvoukomorový",
+      "handle": "vybrany-earl-grey-bio-aromatizovany-cerny-caj-27-g-porc-dvoukomorovy"
+    },
+    "yerba-mate-caj-sypany-bio": {
+      "gid": "gid://shopify/Product/15821910606158",
+      "matchedBy": "image-code",
+      "title": "Maté bio syp. 90g",
+      "handle": "mate-bio-syp-90g"
+    },
+    "rooibos-vanilka-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821923287374",
+      "matchedBy": "image-code",
+      "title": "Rooibos Vanilka bio 21,6 g porc. dvoukomorový",
+      "handle": "rooibos-vanilka-bio-216-g-porc-dvoukomorovy"
+    },
+    "vanilkovy-extakt-bio-baleni": {
+      "gid": "gid://shopify/Product/15821934133582",
+      "matchedBy": "image-code",
+      "title": "Vanilka extrakt bio, éterický olej 5 ml",
+      "handle": "vanilka-extrakt-bio-etericky-olej-5-ml"
+    },
+    "darkova-kazeta-cajova-biorarasci-bio": {
+      "gid": "gid://shopify/Product/15821926039886",
+      "matchedBy": "image-code",
+      "title": "Dárková kazeta čajová – Biorarášci",
+      "handle": "darkova-kazeta-cajova-biorarasci"
+    },
+    "mojito-sirup-bio-baleni": {
+      "gid": "gid://shopify/Product/15821934002510",
+      "matchedBy": "image-code",
+      "title": "Mojito sirup bio 500 ml",
+      "handle": "mojito-sirup-bio-500-ml"
+    },
+    "ovocny-sen-caj-sypany-bio": {
+      "gid": "gid://shopify/Product/15821908640078",
+      "matchedBy": "image-code",
+      "title": "Ovocný sen bio syp. 100g",
+      "handle": "ovocny-sen-bio-syp-100g"
+    },
+    "safran-nitky-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821910868302",
+      "matchedBy": "image-code",
+      "title": "Šafrán nitky bio 0,5g",
+      "handle": "safran-nitky-bio-05g"
+    },
+    "slunecni-pozdrav-pro-babicku-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821933609294",
+      "matchedBy": "image-code",
+      "title": "Sluneční pozdrav pro babičku bio 45 g porc. dvoukomorový",
+      "handle": "slunecni-pozdrav-pro-babicku-bio-45-g-porc-dvoukomorovy"
+    },
+    "dobra-nalada-pro-dedecka-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821933576526",
+      "matchedBy": "image-code",
+      "title": "Dobrá nálada pro dědečka bio 27 g porc. dvoukomorový",
+      "handle": "dobra-nalada-pro-dedecka-bio-27-g-porc-dvoukomorovy"
+    },
+    "kojici-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821922861390",
+      "matchedBy": "image-code",
+      "title": "Kojící čaj Biorarášci bio 27g porc. dvoukomorový",
+      "handle": "kojici-caj-biorarasci-bio-27g-porc-dvoukomorovy"
+    },
+    "samolepka-bio-rarasci-r": {
+      "gid": "gid://shopify/Product/15821929283918",
+      "matchedBy": "image-code",
+      "title": "Samolepka BIO RARÁŠCI",
+      "handle": "samolepka-bio-rarasci"
+    },
+    "pomeranc-etericky-olej-bio-baleni": {
+      "gid": "gid://shopify/Product/15821934068046",
+      "matchedBy": "image-code",
+      "title": "Pomeranč bio, éterický olej 5 ml",
+      "handle": "pomeranc-bio-etericky-olej-5-ml"
+    },
+    "citron-bio-baleni": {
+      "gid": "gid://shopify/Product/15821934166350",
+      "matchedBy": "image-code",
+      "title": "Citron bio, éterický olej 5 ml",
+      "handle": "citron-bio-etericky-olej-5-ml"
+    },
+    "rooibos-natur-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821923221838",
+      "matchedBy": "image-code",
+      "title": "Rooibos natur bio 21,6 g porc. dvoukomorový",
+      "handle": "rooibos-natur-bio-216-g-porc-dvoukomorovy"
+    },
+    "zvoni-na-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821935509838",
+      "matchedBy": "image-code",
+      "title": "Zvoní na čaj bio 45 g, porc. dvoukomorový",
+      "handle": "zvoni-na-caj-bio-45-g-porc-dvoukomorovy"
+    },
+    "nadechnuti-v-lese-bio-baleni": {
+      "gid": "gid://shopify/Product/15821935771982",
+      "matchedBy": "image-code",
+      "title": "Nadechnutí v lese bio syp. 50 g",
+      "handle": "nadechnuti-v-lese-bio-syp-50-g"
+    },
+    "ve-viru-bylinek-bio-baleni": {
+      "gid": "gid://shopify/Product/15821935345998",
+      "matchedBy": "image-code",
+      "title": "Ve víru bylinek bio syp. 50 g",
+      "handle": "ve-viru-bylinek-bio-syp-50-g"
+    },
+    "kouzelny-napoj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821922206030",
+      "matchedBy": "image-code",
+      "title": "Kouzelný nápoj bio 27g porc. dvoukomorový",
+      "handle": "kouzelny-napoj-bio-27g-porc-dvoukomorovy"
+    },
+    "uvolneni-bylinna-smes-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821913293134",
+      "matchedBy": "image-code",
+      "title": "Uvolnění bio 27g porc. dvoukomorový",
+      "handle": "uvolneni-bio-27g-porc-dvoukomorovy"
+    },
+    "piskavice-recke-seno-mleta-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821913588046",
+      "matchedBy": "image-code",
+      "title": "Pískavice řecké seno bio 35g",
+      "handle": "piskavice-recke-seno-bio-35g"
+    },
+    "kurkuma-latte-vanilka-bio-gastro-doza-mala": {
+      "gid": "gid://shopify/Product/15821917356366",
+      "matchedBy": "image-code",
+      "title": "Kurkuma Latte - vanilka bio 230 g, gastro balení",
+      "handle": "kurkuma-latte-vanilka-bio-230-g-gastro-baleni"
+    },
+    "pepr-zeleny-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821929644366",
+      "matchedBy": "image-code",
+      "title": "Pepř zelený bio 20 g, celý",
+      "handle": "pepr-zeleny-bio-20-g-cely"
+    },
+    "kurkuma-latte-zazvor-bio-gastro-doza-mala": {
+      "gid": "gid://shopify/Product/15821917159758",
+      "matchedBy": "image-code",
+      "title": "Kurkuma Latte - zázvor bio 230 g, gastro balení",
+      "handle": "kurkuma-latte-zazvor-bio-230-g-gastro-baleni"
+    },
+    "kava-videnske-pokuseni-r-espresso-prazena-zrnkova-bio-baleni": {
+      "gid": "gid://shopify/Product/15821927514446",
+      "matchedBy": "image-code",
+      "title": "Káva Vídeňské pokušení® Espresso bio, pražená, zrnková 1000 g",
+      "handle": "kava-videnske-pokuseni-espresso-bio-prazena-zrnkova-1000-g"
+    },
+    "kava-videnske-pokuseni-r-melange-prazena-zrnkova-bio-baleni": {
+      "gid": "gid://shopify/Product/15821927350606",
+      "matchedBy": "image-code",
+      "title": "Káva Vídeňské pokušení® Melange bio, pražená, zrnková 1000 g",
+      "handle": "kava-videnske-pokuseni-melange-bio-prazena-zrnkova-1000-g"
+    },
+    "selske-koreni-na-brambory-bio-baleni": {
+      "gid": "gid://shopify/Product/15821926465870",
+      "matchedBy": "image-code",
+      "title": "Selské koření na brambory bio 25g",
+      "handle": "selske-koreni-na-brambory-bio-25g"
+    },
+    "koreni-na-ryby-rybare-svena-mlete-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821909623118",
+      "matchedBy": "image-code",
+      "title": "Koření na ryby rybáře Svena bio 35g",
+      "handle": "koreni-na-ryby-rybare-svena-bio-35g"
+    },
+    "citronova-trava-sypana-bio2": {
+      "gid": "gid://shopify/Product/15821906837838",
+      "matchedBy": "image-code",
+      "title": "Citronová tráva bio syp. 80g",
+      "handle": "citronova-trava-bio-syp-80g"
+    },
+    "koreni-na-kure-pani-domaci-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821914407246",
+      "matchedBy": "image-code",
+      "title": "Koření na kuře paní domácí bio 35g",
+      "handle": "koreni-na-kure-pani-domaci-bio-35g"
+    },
+    "zeleny-caj-sencha-sypany-bio2": {
+      "gid": "gid://shopify/Product/15821920436558",
+      "matchedBy": "image-code",
+      "title": "Povznášející Sencha bio, zelený čaj, 70 g syp.",
+      "handle": "povznasejici-sencha-bio-zeleny-caj-70-g-syp"
+    },
+    "gunpowder-zeleny-caj-sypany-bio": {
+      "gid": "gid://shopify/Product/15821910475086",
+      "matchedBy": "image-code",
+      "title": "Charismatický Gunpowder bio, zelený čaj 100 g, syp.",
+      "handle": "charismaticky-gunpowder-bio-zeleny-caj-100-g-syp"
+    },
+    "pai-mu-tan-bily-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821910704462",
+      "matchedBy": "image-code",
+      "title": "Noblesní Pai Mu Tan bio, bílý čaj, 18 g porc. dvoukomorový",
+      "handle": "noblesni-pai-mu-tan-bio-bily-caj-18-g-porc-dvoukomorovy"
+    },
+    "povznasejici-sencha-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821930398030",
+      "matchedBy": "image-code",
+      "title": "Povznášející Sencha bio, zelený čaj, 21,6 g, porc. dvoukomorový",
+      "handle": "povznasejici-sencha-bio-zeleny-caj-216-g-porc-dvoukomorovy"
+    },
+    "zeleny-caj-jemny-cinsky-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821910966606",
+      "matchedBy": "image-code",
+      "title": "Pravý čínský zelený čaj bio 27 g porc. dvoukomorový",
+      "handle": "pravy-cinsky-zeleny-caj-bio-27-g-porc-dvoukomorovy"
+    },
+    "zeleny-caj-jasmin-sypany-bio": {
+      "gid": "gid://shopify/Product/15821908738382",
+      "matchedBy": "image-code",
+      "title": "Půvabná Jasmín bio, ovoněný zelený čaj, 100 g  syp.",
+      "handle": "puvabna-jasmin-bio-ovoneny-zeleny-caj-100-g-syp"
+    },
+    "pai-mu-tan-bily-caj-sypany-bio": {
+      "gid": "gid://shopify/Product/15821910737230",
+      "matchedBy": "image-code",
+      "title": "Noblesní Pai Mu Tan bio, bílý čaj, 40 g  syp.",
+      "handle": "noblesni-pai-mu-tan-bio-bily-caj-40-g-syp"
+    },
+    "darjeeling-cerny-caj-sypany-bio": {
+      "gid": "gid://shopify/Product/15821909164366",
+      "matchedBy": "image-code",
+      "title": "Neodolatelný Darjeeling bio, černý čaj, 100g syp.",
+      "handle": "neodolatelny-darjeeling-bio-cerny-caj-100g-syp"
+    },
+    "rozkosna-mary-grey-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821930856782",
+      "matchedBy": "image-code",
+      "title": "Rozkošná Mary Grey bio 27 g, porc. dvoukomorový",
+      "handle": "rozkosna-mary-grey-bio-27-g-porc-dvoukomorovy"
+    },
+    "rozkosna-mary-grey-bio-baleni": {
+      "gid": "gid://shopify/Product/15821930791246",
+      "matchedBy": "image-code",
+      "title": "Rozkošná Mary Grey bio 90 g syp.",
+      "handle": "rozkosna-mary-grey-bio-90-g-syp"
+    },
+    "earl-grey-cerny-caj-sypany-bio": {
+      "gid": "gid://shopify/Product/15821906805070",
+      "matchedBy": "image-code",
+      "title": "Vybraný Earl Grey bio, aromatizovaný černý čaj, 90g syp.",
+      "handle": "vybrany-earl-grey-bio-aromatizovany-cerny-caj-90g-syp"
+    },
+    "harissa-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821930070350",
+      "matchedBy": "image-code",
+      "title": "Harissa bio 70 g",
+      "handle": "harissa-bio-70-g"
+    },
+    "koreni-peti-vuni-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821930135886",
+      "matchedBy": "image-code",
+      "title": "Koření pěti vůní bio 55 g",
+      "handle": "koreni-peti-vuni-bio-55-g"
+    },
+    "recke-koreni-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821930266958",
+      "matchedBy": "image-code",
+      "title": "Řecké koření bio 35 g",
+      "handle": "recke-koreni-bio-35-g"
+    },
+    "darkove-baleni-2-caju-zvoni-bio": {
+      "gid": "gid://shopify/Product/15821936263502",
+      "matchedBy": "image-code",
+      "title": "Dárkové balení 2 čajů - Zvoní!",
+      "handle": "darkove-baleni-2-caju-zvoni"
+    },
+    "osvezeni-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821922271566",
+      "matchedBy": "image-code",
+      "title": "Osvěžení bio 21,6g porc. dvoukomorový",
+      "handle": "osvezeni-bio-216g-porc-dvoukomorovy"
+    },
+    "osvezeni-sypany-bio2": {
+      "gid": "gid://shopify/Product/15821910016334",
+      "matchedBy": "image-code",
+      "title": "Osvěžení bio syp. 50g",
+      "handle": "osvezeni-bio-syp-50g"
+    },
+    "uvolneni-bylinna-smes-sypana-bio": {
+      "gid": "gid://shopify/Product/15821913358670",
+      "matchedBy": "image-code",
+      "title": "Uvolnění bio syp. 40g",
+      "handle": "uvolneni-bio-syp-40g"
+    },
+    "dobre-rano-sypany-bio": {
+      "gid": "gid://shopify/Product/15821908279630",
+      "matchedBy": "image-code",
+      "title": "Dobré ráno bio syp. 50g",
+      "handle": "dobre-rano-bio-syp-50g"
+    },
+    "saturejka-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821907394894",
+      "matchedBy": "image-code",
+      "title": "Saturejka bio 20g",
+      "handle": "saturejka-bio-20g"
+    },
+    "ovocny-caj-dobre-nalady-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821910081870",
+      "matchedBy": "image-code",
+      "title": "Ovocný čaj dobré nálady bio 45 g, porc. dvoukomorový",
+      "handle": "ovocny-caj-dobre-nalady-bio-45-g-porc-dvoukomorovy"
+    },
+    "paprika-uzena-sladka-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821932953934",
+      "matchedBy": "image-code",
+      "title": "Paprika uzená bio, sladká 50 g",
+      "handle": "paprika-uzena-bio-sladka-50-g"
+    },
+    "skorice-cejlon-mleta-bio-gastro-doza-velka": {
+      "gid": "gid://shopify/Product/15821907657038",
+      "matchedBy": "image-code",
+      "title": "Skořice Cejlon bio, mletá 450 g, gastro balení",
+      "handle": "skorice-cejlon-bio-mleta-450-g-gastro-baleni"
+    },
+    "matove-trio-bio-baleni": {
+      "gid": "gid://shopify/Product/15821932593486",
+      "matchedBy": "image-code",
+      "title": "Mátové trio bio syp. 50 g",
+      "handle": "matove-trio-bio-syp-50-g"
+    },
+    "korenena-sul-na-hranolky-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821934395726",
+      "matchedBy": "image-code",
+      "title": "Kořeněná sůl na hranolky bio 130 g",
+      "handle": "korenena-sul-na-hranolky-bio-130-g"
+    },
+    "bolonske-koreni-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821933248846",
+      "matchedBy": "image-code",
+      "title": "Boloňské koření bio 40 g",
+      "handle": "bolonske-koreni-bio-40-g"
+    },
+    "jitrocel-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821935083854",
+      "matchedBy": "image-code",
+      "title": "Jitrocel bio 21,6 g, porc. dvoukomorový",
+      "handle": "jitrocel-bio-216-g-porc-dvoukomorovy"
+    },
+    "citronova-trava-medunka-verbena-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821935968590",
+      "matchedBy": "image-code",
+      "title": "Citronová tráva Meduňka Verbena bio 21,6 g, porc. dvoukomorový",
+      "handle": "citronova-trava-medunka-verbena-bio-216-g-porc-dvoukomorovy"
+    },
+    "fenykl-anyz-kmin-sypany-bio-baleni": {
+      "gid": "gid://shopify/Product/15821935608142",
+      "matchedBy": "image-code",
+      "title": "Fenykl Anýz Kmín bio syp. 150 g",
+      "handle": "fenykl-anyz-kmin-bio-syp-150-g"
+    },
+    "chlebove-koreni-hrube-mlete-bio-baleni": {
+      "gid": "gid://shopify/Product/15821927842126",
+      "matchedBy": "image-code",
+      "title": "Chlebové koření bio, hrubě mleté 45g",
+      "handle": "chlebove-koreni-bio-hrube-mlete-45g"
+    },
+    "uzena-sul-krabicka": {
+      "gid": "gid://shopify/Product/15821933052238",
+      "matchedBy": "image-code",
+      "title": "Uzená sůl hrubá 150 g",
+      "handle": "uzena-sul-hruba-150-g"
+    },
+    "koriandr-mlety-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821910507854",
+      "matchedBy": "image-code",
+      "title": "Koriandr bio, mletý 40g",
+      "handle": "koriandr-bio-mlety-40g"
+    },
+    "dobry-vecer-sypany-bio2": {
+      "gid": "gid://shopify/Product/15821908345166",
+      "matchedBy": "image-code",
+      "title": "Dobrý večer bio syp. 50g",
+      "handle": "dobry-vecer-bio-syp-50g"
+    },
+    "mikulassky-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821933904206",
+      "matchedBy": "image-code",
+      "title": "Mikulášský čaj bio 50,4 g porc. dvoukomorový",
+      "handle": "mikulassky-caj-bio-504-g-porc-dvoukomorovy"
+    },
+    "asian-bbq-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821936492878",
+      "matchedBy": "image-code",
+      "title": "Asian BBQ bio 80 g",
+      "handle": "asian-bbq-bio-80-g"
+    },
+    "easy-goreng-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821936394574",
+      "matchedBy": "image-code",
+      "title": "Easy Goreng® bio 70 g",
+      "handle": "easy-goreng-bio-70-g"
+    },
+    "asian-sprinkle-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821936361806",
+      "matchedBy": "image-code",
+      "title": "Asian Sprinkle bio 50 g",
+      "handle": "asian-sprinkle-bio-50-g"
+    },
+    "koreni-na-ryzi-mistra-wonga-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821914440014",
+      "matchedBy": "image-code",
+      "title": "Koření na rýži mistra Wonga bio 40g",
+      "handle": "koreni-na-ryzi-mistra-wonga-bio-40g"
+    },
+    "garam-masala-bio-baleni": {
+      "gid": "gid://shopify/Product/15821929808206",
+      "matchedBy": "image-code",
+      "title": "Garam Masala bio 55 g",
+      "handle": "garam-masala-bio-55-g"
+    },
+    "hriby-rezane-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821913555278",
+      "matchedBy": "image-code",
+      "title": "Hřiby bio, řezané 25g",
+      "handle": "hriby-bio-rezane-25g"
+    },
+    "verbena-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821913391438",
+      "matchedBy": "image-code",
+      "title": "Verbena citronová bio 27g porc. dvoukomorový",
+      "handle": "verbena-citronova-bio-27g-porc-dvoukomorovy"
+    },
+    "narozeninovy-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821910278478",
+      "matchedBy": "image-code",
+      "title": "Narozeninový čaj bio 27g porc. dvoukomorový",
+      "handle": "narozeninovy-caj-bio-27g-porc-dvoukomorovy"
+    },
+    "narozeninovy-caj-sypany-bio": {
+      "gid": "gid://shopify/Product/15821910245710",
+      "matchedBy": "image-code",
+      "title": "Narozeninový čaj bio syp. 50g",
+      "handle": "narozeninovy-caj-bio-syp-50g"
+    },
+    "vanocni-cukrovani-bio-dozicka": {
+      "gid": "gid://shopify/Product/15821934920014",
+      "matchedBy": "image-code",
+      "title": "Vánoční cukrování bio 70 g, dózička",
+      "handle": "vanocni-cukrovani-bio-70-g-dozicka"
+    },
+    "zeleninova-polevka-sv-hildegardy-bio-sklenice": {
+      "gid": "gid://shopify/Product/15821924008270",
+      "matchedBy": "image-code",
+      "title": "Zeleninová polévka sv. Hildegardy bio ve skleničce",
+      "handle": "zeleninova-polevka-sv-hildegardy-bio-ve-sklenicce"
+    },
+    "vanilka-lusk-bio-baleni2": {
+      "gid": "gid://shopify/Product/15821921812814",
+      "matchedBy": "image-code",
+      "title": "Vanilka lusk bio 1 ks",
+      "handle": "vanilka-lusk-bio-1-ks"
+    },
+    "kmin-krizovy-matersky-cumin-mlety-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821911064910",
+      "matchedBy": "image-code",
+      "title": "Kmín římský bio, mletý 40g",
+      "handle": "kmin-rimsky-bio-mlety-40g"
+    },
+    "zeleninova-polevka-sv-hildegardy-bujon-bio": {
+      "gid": "gid://shopify/Product/15821929120078",
+      "matchedBy": "image-code",
+      "title": "Zeleninová polévka sv. Hildegardy bio CZ",
+      "handle": "zeleninova-polevka-sv-hildegardy-bio-cz"
+    },
+    "ledovy-dzbanek-mata-cokoladova-verbena-bio-pyramidalni-sacky": {
+      "gid": "gid://shopify/Product/15821916143950",
+      "matchedBy": "image-code",
+      "title": "Ledový džbánek® čokoládová máta – verbena bio 32g pyramida",
+      "handle": "ledovy-dzbanek-cokoladova-mata-verbena-bio-32g-pyramida"
+    },
+    "ayurvedska-kouzelna-sul-do-mlynku-krabicka": {
+      "gid": "gid://shopify/Product/15821908836686",
+      "matchedBy": "image-code",
+      "title": "Ayurvédská kouzelná sůl do mlýnku konv. 150g",
+      "handle": "ayurvedska-kouzelna-sul-do-mlynku-konv-150g"
+    },
+    "levandule-etericky-olej-bio": {
+      "gid": "gid://shopify/Product/15821911228750",
+      "matchedBy": "image-code",
+      "title": "Levandule bio éterický olej 10ml",
+      "handle": "levandule-bio-etericky-olej-10ml"
+    },
+    "chilli-con-carne-dona-rodriqueze-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821916864846",
+      "matchedBy": "image-code",
+      "title": "Chili con Carne dona Rodrigueze bio 40g",
+      "handle": "chili-con-carne-dona-rodrigueze-bio-40g"
+    },
+    "santina-tandoori-masala-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821914374478",
+      "matchedBy": "image-code",
+      "title": "Šántina tandoori masala bio 32g",
+      "handle": "santina-tandoori-masala-bio-32g"
+    },
+    "pepr-cerny-mlety-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821921681742",
+      "matchedBy": "title-fuzzy-0.67",
+      "title": "Pepř černý bio, mletý 50g",
+      "handle": "pepr-cerny-bio-mlety-50g"
+    },
+    "silny-manuka-med-bio": {
+      "gid": "gid://shopify/Product/15821915291982",
+      "matchedBy": "image-code",
+      "title": "Manuka med bio, 250g",
+      "handle": "manuka-med-bio-250g"
+    },
+    "zazvor-mlety-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821926793550",
+      "matchedBy": "title-fuzzy-0.60",
+      "title": "Zázvor bio, mletý 30 g",
+      "handle": "zazvor-bio-mlety-30-g"
+    },
+    "pepr-cerny-cely-v-mlynku-bio": {
+      "gid": "gid://shopify/Product/15821921616206",
+      "matchedBy": "title-fuzzy-0.67",
+      "title": "Pepř černý bio, celý 55g",
+      "handle": "pepr-cerny-bio-cely-55g"
+    },
+    "raraskovo-lieblingskakao-kakaovy-napoj-bio-doza": {
+      "gid": "gid://shopify/Product/15821924893006",
+      "matchedBy": "image-code",
+      "title": "Raráškovo Lieblingskakao Biorarášci bio 300g",
+      "handle": "raraskovo-lieblingskakao-biorarasci-bio-300g"
+    },
+    "tymian-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821921747278",
+      "matchedBy": "title-fuzzy-0.50",
+      "title": "Tymián bio 20g",
+      "handle": "tymian-bio-20g"
+    },
+    "smokey-paprika-uzena-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821926302030",
+      "matchedBy": "title-fuzzy-0.67",
+      "title": "Smokey Paprika bio, uzená 50g",
+      "handle": "smokey-paprika-bio-uzena-50g"
+    },
+    "vsechno-nejmilejsi-kouzelna-sul-s-kvety-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821911163214",
+      "matchedBy": "title-fuzzy-0.50",
+      "title": "Středomořská kouzelná sůl s květy bio 120g",
+      "handle": "stredomorska-kouzelna-sul-s-kvety-bio-120g"
+    },
+    "kouzlo-krbu-bio": {
+      "gid": "gid://shopify/Product/15821934887246",
+      "matchedBy": "image-code",
+      "title": "Kouzlo krbu éterický olej bio 10 ml",
+      "handle": "kouzlo-krbu-etericky-olej-bio-10-ml"
+    },
+    "sul-na-vejce-od-zajice-bio-dozicka": {
+      "gid": "gid://shopify/Product/15821917749582",
+      "matchedBy": "title-fuzzy-0.88",
+      "title": "Sůl na vejce od zajíce bio 90g dózička",
+      "handle": "sul-na-vejce-od-zajice-bio-90g-dozicka"
+    },
+    "pepr-cerny-cely-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821921616206",
+      "matchedBy": "title-fuzzy-0.67",
+      "title": "Pepř černý bio, celý 55g",
+      "handle": "pepr-cerny-bio-cely-55g"
+    },
+    "ledovy-dzbanek-pomeranc-bazalka-bio-pyramidalni-sacky": {
+      "gid": "gid://shopify/Product/15821920502094",
+      "matchedBy": "image-code",
+      "title": "Ledový džbánek® pomeranč – bazalka bio 40g pyramida",
+      "handle": "ledovy-dzbanek-pomeranc-bazalka-bio-40g-pyramida"
+    },
+    "pikantni-polevka-bujon-bio-baleni": {
+      "gid": "gid://shopify/Product/15821923877198",
+      "matchedBy": "image-code",
+      "title": "Pikantní polévka bio 60g",
+      "handle": "pikantni-polevka-bio-60g"
+    },
+    "citron-etericky-olej-bio2": {
+      "gid": "gid://shopify/Product/15821934166350",
+      "matchedBy": "title-fuzzy-0.67",
+      "title": "Citron bio, éterický olej 5 ml",
+      "handle": "citron-bio-etericky-olej-5-ml"
+    },
+    "aladinovo-koreni-do-kavy-bio-dozicka": {
+      "gid": "gid://shopify/Product/15821914276174",
+      "matchedBy": "image-code",
+      "title": "Aladinovo koření do kávy bio 35g dózička",
+      "handle": "aladinovo-koreni-do-kavy-bio-35g-dozicka"
+    },
+    "ovoce-zele-s-ovocnou-prichuti-bio-baleni": {
+      "gid": "gid://shopify/Product/15821924073806",
+      "matchedBy": "image-code",
+      "title": "Ovoce - želé s ovocnou příchutí bio 100g",
+      "handle": "ovoce-zele-s-ovocnou-prichuti-bio-100g"
+    },
+    "medova-srdicka-keksy-bezlepkove-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821917684046",
+      "matchedBy": "image-code",
+      "title": "Medová srdíčka bezlepková bio 100g",
+      "handle": "medova-srdicka-bezlepkova-bio-100g"
+    },
+    "jogurtove-ovoce-zele-s-jogurtem-a-ovocnou-prichuti-bio-baleni": {
+      "gid": "gid://shopify/Product/15821924598094",
+      "matchedBy": "image-code",
+      "title": "Jogurtové ovoce - želé s jogurtem a ovocnou příchutí bio 100g",
+      "handle": "jogurtove-ovoce-zele-s-jogurtem-a-ovocnou-prichuti-bio-100g"
+    },
+    "povzbudivy-english-breakfast-bio-baleni": {
+      "gid": "gid://shopify/Product/15821931151694",
+      "matchedBy": "image-code",
+      "title": "Povzbudivý English Breakfast, černý čaj bio, 70 g syp.",
+      "handle": "povzbudivy-english-breakfast-cerny-caj-bio-70-g-syp"
+    },
+    "kurkuma-latte-zazvor-bio-doza": {
+      "gid": "gid://shopify/Product/15821917126990",
+      "matchedBy": "image-code",
+      "title": "Kurkuma Latte - zázvor bio 60g dóza",
+      "handle": "kurkuma-latte-zazvor-bio-60g-doza"
+    },
+    "manuka-pastilky-bio": {
+      "gid": "gid://shopify/Product/15821920174414",
+      "matchedBy": "image-code",
+      "title": "Manuka pastilky bio 22,4g",
+      "handle": "manuka-pastilky-bio-224g"
+    },
+    "batuzek-sonnentor-bio": {
+      "gid": "gid://shopify/Product/15821919224142",
+      "matchedBy": "image-code",
+      "title": "Batůžek Sonnentor",
+      "handle": "batuzek-sonnentor"
+    },
+    "smaltovany-hrnicek-se-slunickem": {
+      "gid": "gid://shopify/Product/15821916504398",
+      "matchedBy": "image-code",
+      "title": "Smaltovaný hrníček se sluníčkem 0,4l",
+      "handle": "smaltovany-hrnicek-se-slunickem-04l"
+    },
+    "spaldove-krekry-bio": {
+      "gid": "gid://shopify/Product/15821922664782",
+      "matchedBy": "image-code",
+      "title": "Špaldové bio krekry 100g",
+      "handle": "spaldove-bio-krekry-100g"
+    },
+    "andel-strazny-keksy-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821914177870",
+      "matchedBy": "image-code",
+      "title": "Keksy Anděl strážný® bio 125 g",
+      "handle": "keksy-andel-strazny-bio-125-g"
+    },
+    "ovocni-medvidci-zele-s-ovocnou-prichuti-bio-baleni": {
+      "gid": "gid://shopify/Product/15821924204878",
+      "matchedBy": "image-code",
+      "title": "Ovocní medvídci - želé s ovocnou příchutí bio 100g",
+      "handle": "ovocni-medvidci-zele-s-ovocnou-prichuti-bio-100g"
+    },
+    "vonny-kaminek": {
+      "gid": "gid://shopify/Product/15821915717966",
+      "matchedBy": "image-code",
+      "title": "Vonný kamínek",
+      "handle": "vonny-kaminek"
+    },
+    "jablecny-strudl-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821917061454",
+      "matchedBy": "title-fuzzy-0.57",
+      "title": "Jablečný štrúdl bio 45g porc. dvoukomorový",
+      "handle": "jablecny-strudl-bio-45g-porc-dvoukomorovy"
+    },
+    "sonnentor-adventni-kalendar-r-koreni-bio": {
+      "gid": "gid://shopify/Product/15821935280462",
+      "matchedBy": "image-code",
+      "title": "SONNENTOR Adventní kalendář® koření bio 118 g",
+      "handle": "sonnentor-adventni-kalendar-koreni-bio-118-g"
+    },
+    "darkova-kazeta-cajova-puvabny-cas-vanoc-darkova-kazeta-cajova-puvabny-cas-vanoc-bio": {
+      "gid": "gid://shopify/Product/15821932495182",
+      "matchedBy": "image-code",
+      "title": "Dárková kazeta čajová - Půvabný čas Vánoc",
+      "handle": "darkova-kazeta-cajova-puvabny-cas-vanoc"
+    },
+    "darkova-kazeta-cajova-kouzlo-zimnich-veceru-darkova-kazeta-cajova-kouzlo-zimnich-veceru-bio": {
+      "gid": "gid://shopify/Product/15821932396878",
+      "matchedBy": "image-code",
+      "title": "Dárková kazeta čajová – Kouzlo zimních večerů",
+      "handle": "darkova-kazeta-cajova-kouzlo-zimnich-veceru"
+    },
+    "darkova-kazeta-cajova-pro-radost-bio": {
+      "gid": "gid://shopify/Product/15821932691790",
+      "matchedBy": "image-code",
+      "title": "Dárková kazeta čajová - Pro radost",
+      "handle": "darkova-kazeta-cajova-pro-radost"
+    },
+    "london-bus-bio": {
+      "gid": "gid://shopify/Product/15821931217230",
+      "matchedBy": "image-code",
+      "title": "London Bus bio, černé čaje",
+      "handle": "london-bus-bio-cerne-caje"
+    },
+    "darkovy-box-z-lasky": {
+      "gid": "gid://shopify/Product/15821933838670",
+      "matchedBy": "image-code",
+      "title": "Dárkový box - Z lásky",
+      "handle": "darkovy-box-z-lasky"
+    },
+    "grilovaci-sada3": {
+      "gid": "gid://shopify/Product/15821935247694",
+      "matchedBy": "image-code",
+      "title": "Grilovací sada bio",
+      "handle": "grilovaci-sada-bio"
+    },
+    "ledovy-dzbanek-jahoda-zazvor-bio-pyramidalni-sacky": {
+      "gid": "gid://shopify/Product/15821916045646",
+      "matchedBy": "image-code",
+      "title": "Ledový džbánek® jahoda – zázvor bio 44,8g pyramida",
+      "handle": "ledovy-dzbanek-jahoda-zazvor-bio-448g-pyramida"
+    },
+    "grilovaci-sada": {
+      "gid": "gid://shopify/Product/15821935247694",
+      "matchedBy": "title-fuzzy-0.67",
+      "title": "Grilovací sada bio",
+      "handle": "grilovaci-sada-bio"
+    },
+    "cernucha-cela-bio-baleni": {
+      "gid": "gid://shopify/Product/15821926564174",
+      "matchedBy": "title-fuzzy-0.60",
+      "title": "Černucha bio, celá 50g",
+      "handle": "cernucha-bio-cela-50g"
+    },
+    "pepr-zeleny-cely-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821929644366",
+      "matchedBy": "title-fuzzy-0.67",
+      "title": "Pepř zelený bio 20 g, celý",
+      "handle": "pepr-zeleny-bio-20-g-cely"
+    },
+    "vanilka-extrakt-etericky-olej-bio2": {
+      "gid": "gid://shopify/Product/15821934133582",
+      "matchedBy": "title-fuzzy-0.71",
+      "title": "Vanilka extrakt bio, éterický olej 5 ml",
+      "handle": "vanilka-extrakt-bio-etericky-olej-5-ml"
+    },
+    "garam-masala-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821929808206",
+      "matchedBy": "title-fuzzy-0.60",
+      "title": "Garam Masala bio 55 g",
+      "handle": "garam-masala-bio-55-g"
+    },
+    "sonnentor-taska-z-biobavlny-bylinky-bio": {
+      "gid": "gid://shopify/Product/15821929546062",
+      "matchedBy": "title-fuzzy-0.80",
+      "title": "Sonnentor taška z biobavlny Bylinky",
+      "handle": "sonnentor-taska-z-biobavlny-bylinky"
+    },
+    "sonnentor-taska-z-biobavlny-dobra-nalada-bio": {
+      "gid": "gid://shopify/Product/15821929447758",
+      "matchedBy": "title-fuzzy-0.83",
+      "title": "Sonnentor taška z biobavlny Dobrá nálada",
+      "handle": "sonnentor-taska-z-biobavlny-dobra-nalada"
+    },
+    "kytice-chuti-poznavaci-sada-smesi-kvetu-a-koreni-bio": {
+      "gid": "gid://shopify/Product/15821925548366",
+      "matchedBy": "image-code",
+      "title": "Kytice chutí poznávací sada bio, směsi květů a koření 50g",
+      "handle": "kytice-chuti-poznavaci-sada-bio-smesi-kvetu-a-koreni-50g"
+    },
+    "darkova-baleni-2-caju-velikonoce-bio": {
+      "gid": "gid://shopify/Product/15821922402638",
+      "matchedBy": "title-fuzzy-0.80",
+      "title": "Dárkové balení 2 čajů - Velikonoce",
+      "handle": "darkove-baleni-2-caju-velikonoce"
+    },
+    "koreni-na-vejce-bio-dozicka": {
+      "gid": "gid://shopify/Product/15821922763086",
+      "matchedBy": "title-fuzzy-0.67",
+      "title": "Koření na vejce bio 70g",
+      "handle": "koreni-na-vejce-bio-70g"
+    },
+    "andel-strazny-bio": {
+      "gid": "gid://shopify/Product/15821934788942",
+      "matchedBy": "image-code",
+      "title": "Anděl strážný éterický olej bio 10 ml",
+      "handle": "andel-strazny-etericky-olej-bio-10-ml"
+    },
+    "keramicke-vonne-slunicko-se-snurkou": {
+      "gid": "gid://shopify/Product/15821910933838",
+      "matchedBy": "image-code",
+      "title": "Keramické vonné sluníčko se šňůrkou",
+      "handle": "keramicke-vonne-slunicko-se-snurkou"
+    },
+    "harmonie-bio": {
+      "gid": "gid://shopify/Product/15821934690638",
+      "matchedBy": "image-code",
+      "title": "Harmonie éterický olej bio 10 ml",
+      "handle": "harmonie-etericky-olej-bio-10-ml"
+    },
+    "dobra-nalada-etericky-olej-bio2": {
+      "gid": "gid://shopify/Product/15821934854478",
+      "matchedBy": "image-code",
+      "title": "Dobrá nálada éterický olej bio 10 ml",
+      "handle": "dobra-nalada-etericky-olej-bio-10-ml"
+    },
+    "raraskuv-smaltovany-hrnicek": {
+      "gid": "gid://shopify/Product/15821925941582",
+      "matchedBy": "image-code",
+      "title": "Raráškův smaltovaný hrníček, 300 ml",
+      "handle": "raraskuv-smaltovany-hrnicek-300-ml"
+    },
+    "pomerancovy-caj-sypany-bio2": {
+      "gid": "gid://shopify/Product/15821910114638",
+      "matchedBy": "image-code",
+      "title": "Pomerančový čaj bio syp. 100g",
+      "handle": "pomerancovy-caj-bio-syp-100g"
+    },
+    "zimni-noc-sypana-bio-baleni": {
+      "gid": "gid://shopify/Product/15821928333646",
+      "matchedBy": "image-code",
+      "title": "Zimní noc bio 100 g syp.",
+      "handle": "zimni-noc-bio-100-g-syp"
+    },
+    "lucni-kviti-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821919519054",
+      "matchedBy": "title-fuzzy-0.57",
+      "title": "Luční kvítí bio 27g porc. dvoukomorový",
+      "handle": "lucni-kviti-bio-27g-porc-dvoukomorovy"
+    },
+    "velikonocni-nadilka-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821936296270",
+      "matchedBy": "image-code",
+      "title": "Velikonoční nadílka bio 32,4 g, porc. dvoukomorový",
+      "handle": "velikonocni-nadilka-bio-324-g-porc-dvoukomorovy"
+    },
+    "videnske-pokuseni-r-melange-prazena-kava-mleta-bio-baleni": {
+      "gid": "gid://shopify/Product/15821927416142",
+      "matchedBy": "image-code",
+      "title": "Káva Vídeňské pokušení® Melange bio, pražená, mletá 500 g",
+      "handle": "kava-videnske-pokuseni-melange-bio-prazena-mleta-500-g"
+    },
+    "italske-koreni-rezane-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821926400334",
+      "matchedBy": "title-fuzzy-0.50",
+      "title": "Italské koření bio 20g",
+      "handle": "italske-koreni-bio-20g"
+    },
+    "darkovy-box-kouzelny-vanocni-cas": {
+      "gid": "gid://shopify/Product/15821936034126",
+      "matchedBy": "image-code",
+      "title": "Dárkový box - Kouzelný vánoční čas",
+      "handle": "darkovy-box-kouzelny-vanocni-cas"
+    },
+    "vanilka-lusk-bio-baleni": {
+      "gid": "gid://shopify/Product/15821921812814",
+      "matchedBy": "title-fuzzy-0.75",
+      "title": "Vanilka lusk bio 1 ks",
+      "handle": "vanilka-lusk-bio-1-ks"
+    },
+    "kardamom-mlety-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821921386830",
+      "matchedBy": "title-fuzzy-0.60",
+      "title": "Kardamom bio, mletý 50g",
+      "handle": "kardamom-bio-mlety-50g"
+    },
+    "novorocni-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821932757326",
+      "matchedBy": "title-fuzzy-0.57",
+      "title": "Novoroční čaj® bio 27 g, porc. dvoukomorový",
+      "handle": "novorocni-caj-bio-27-g-porc-dvoukomorovy"
+    },
+    "bylinna-poznavaci-sada-bio-poznavaci-sada": {
+      "gid": "gid://shopify/Product/15821923516750",
+      "matchedBy": "image-code",
+      "title": "Bylinná poznávací sada bio 28,5g porc. dvoukomorový",
+      "handle": "bylinna-poznavaci-sada-bio-285g-porc-dvoukomorovy"
+    },
+    "ovocna-poznavaci-sada-bio-poznavaci-sada": {
+      "gid": "gid://shopify/Product/15821935018318",
+      "matchedBy": "title-fuzzy-0.57",
+      "title": "Ovocná poznávací sada bio 48,4 g porc. dvoukomorový",
+      "handle": "ovocna-poznavaci-sada-bio-484-g-porc-dvoukomorovy"
+    },
+    "ochutnej-poznavaci-sada-bio-poznavaci-sada": {
+      "gid": "gid://shopify/Product/15821923418446",
+      "matchedBy": "image-code",
+      "title": "Ochutnej poznávací sada bio 34,4g porc. dvoukomorový",
+      "handle": "ochutnej-poznavaci-sada-bio-344g-porc-dvoukomorovy"
+    },
+    "s-korenim-kolem-sveta-poznavaci-sada-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821914571086",
+      "matchedBy": "image-code",
+      "title": "S kořením kolem světa – poznávací sada bio 50g",
+      "handle": "s-korenim-kolem-sveta-poznavaci-sada-bio-50g"
+    },
+    "jogurtove-ovoce-zele-s-jogurtem-a-ovocnou-prichuti-bio-velke-baleni": {
+      "gid": "gid://shopify/Product/15821924434254",
+      "matchedBy": "image-code",
+      "title": "Jogurtové ovoce - želé s jogurtem a ovocnou příchutí bio 1kg",
+      "handle": "jogurtove-ovoce-zele-s-jogurtem-a-ovocnou-prichuti-bio-1kg"
+    },
+    "ovoce-zele-s-ovocnou-prichuti-bio-velke-baleni": {
+      "gid": "gid://shopify/Product/15821924073806",
+      "matchedBy": "title-fuzzy-0.83",
+      "title": "Ovoce - želé s ovocnou příchutí bio 100g",
+      "handle": "ovoce-zele-s-ovocnou-prichuti-bio-100g"
+    },
+    "ovocni-medvidci-zele-s-ovocnou-prichuti-bio-velke-baleni": {
+      "gid": "gid://shopify/Product/15821924270414",
+      "matchedBy": "image-code",
+      "title": "Ovocní medvídci - želé s ovocnou příchutí bio 1kg",
+      "handle": "ovocni-medvidci-zele-s-ovocnou-prichuti-bio-1kg"
+    },
+    "dobrodruzstvi-biorarasku-brozura": {
+      "gid": "gid://shopify/Product/15821929349454",
+      "matchedBy": "image-code",
+      "title": "Dobrodružství biorarášků brožura",
+      "handle": "dobrodruzstvi-biorarasku-brozura"
+    },
+    "sonnentor-adventni-kalendar-r-koreni-bio-baleni": {
+      "gid": "gid://shopify/Product/15821928825166",
+      "matchedBy": "image-code",
+      "title": "Adventní kalendář koření bio 118 g",
+      "handle": "adventni-kalendar-koreni-bio-118-g"
+    },
+    "videnske-pokuseni-r-melange-prazena-kava-zrnkova-bio-baleni": {
+      "gid": "gid://shopify/Product/15821927219534",
+      "matchedBy": "image-code",
+      "title": "Káva Vídeňské pokušení® Melange bio, pražená, zrnková 500 g",
+      "handle": "kava-videnske-pokuseni-melange-bio-prazena-zrnkova-500-g"
+    },
+    "svezi-lady-green-bio-baleni": {
+      "gid": "gid://shopify/Product/15821931086158",
+      "matchedBy": "image-code",
+      "title": "Svěží Lady Green bio, ochucený zelený čaj, 90 g  syp.",
+      "handle": "svezi-lady-green-bio-ochuceny-zeleny-caj-90-g-syp"
+    },
+    "pomerancovy-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821932036430",
+      "matchedBy": "image-code",
+      "title": "Pomerančový čaj bio 32,4 g, porc. dvoukomorový",
+      "handle": "pomerancovy-caj-bio-324-g-porc-dvoukomorovy"
+    },
+    "koreni-do-svareneho-cerveneho-vina-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821928595790",
+      "matchedBy": "title-fuzzy-0.70",
+      "title": "Koření do svařeného červeného vína bio 32,4 g, porc. dvoukomorový",
+      "handle": "koreni-do-svareneho-cerveneho-vina-bio-324-g-porc-dvoukomorovy"
+    },
+    "skorice-cejlon-mleta-bio-dozicka": {
+      "gid": "gid://shopify/Product/15821907624270",
+      "matchedBy": "title-fuzzy-0.67",
+      "title": "Skořice Cejlon bio, mletá 40g",
+      "handle": "skorice-cejlon-bio-mleta-40g"
+    },
+    "koreni-na-pizzu-a-testoviny-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821925712206",
+      "matchedBy": "title-fuzzy-0.71",
+      "title": "Koření na pizzu a těstoviny bio 20g",
+      "handle": "koreni-na-pizzu-a-testoviny-bio-20g"
+    },
+    "dobra-nalada-smes-kvetu-a-koreni-bio-dozicka": {
+      "gid": "gid://shopify/Product/15821909721422",
+      "matchedBy": "image-code",
+      "title": "Dobrá nálada - směs květů a koření bio 25g dózička",
+      "handle": "dobra-nalada-smes-kvetu-a-koreni-bio-25g-dozicka"
+    },
+    "vse-v-zelenem-salatove-koreni-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821922074958",
+      "matchedBy": "title-fuzzy-0.71",
+      "title": "Vše v zeleném, salátové koření bio 15g",
+      "handle": "vse-v-zelenem-salatove-koreni-bio-15g"
+    },
+    "selske-koreni-na-brambory-bio-dozicka": {
+      "gid": "gid://shopify/Product/15821926465870",
+      "matchedBy": "title-fuzzy-0.71",
+      "title": "Selské koření na brambory bio 25g",
+      "handle": "selske-koreni-na-brambory-bio-25g"
+    },
+    "prirozene-horke-spej-bio": {
+      "gid": "gid://shopify/Product/15821935575374",
+      "matchedBy": "image-code",
+      "title": "Přirozeně hořké, sprej bio 50 ml",
+      "handle": "prirozene-horke-sprej-bio-50-ml"
+    },
+    "pekne-odpoledne-bylinny-caj-sypany-bio": {
+      "gid": "gid://shopify/Product/15821913260366",
+      "matchedBy": "image-code",
+      "title": "Pěkné odpoledne bio syp. 50g",
+      "handle": "pekne-odpoledne-bio-syp-50g"
+    },
+    "kurkuma-mleta-bio-gastro-doza-velka": {
+      "gid": "gid://shopify/Product/15821932822862",
+      "matchedBy": "title-fuzzy-0.50",
+      "title": "Kurkuma bio, mletá 500g, gastro balení",
+      "handle": "kurkuma-bio-mleta-500g-gastro-baleni"
+    },
+    "vse-v-zelenem-salatove-koreni-bio-dozicka": {
+      "gid": "gid://shopify/Product/15821922074958",
+      "matchedBy": "title-fuzzy-0.71",
+      "title": "Vše v zeleném, salátové koření bio 15g",
+      "handle": "vse-v-zelenem-salatove-koreni-bio-15g"
+    },
+    "curry-ostre-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821921911118",
+      "matchedBy": "title-fuzzy-0.60",
+      "title": "Curry ostré bio 50g",
+      "handle": "curry-ostre-bio-50g"
+    },
+    "mesicek-sypany-bio": null,
+    "sonnentor-taska-z-biobavlny-tady-roste-radost-bio": null,
+    "slamak": null,
+    "cokokulicky-bio-baleni2": null,
+    "keksy-dobre-nalady-bio-krabicka": null,
+    "bylinky-na-zizu-bio-porcovany-dvoukomorovy": null,
+    "malina-list-sypana-bio": null,
+    "boruvky-bio-krabicka2": null,
+    "adventni-kalendar-koreni-bio-krabicka": null,
+    "darkovy-box-vanocni-a-silvestrovske-menu-bio": null,
+    "darkovy-box-vanoce-bio": null,
+    "darkova-kazeta-cajova-kouzelne-vanoce-bio": {
+      "gid": "gid://shopify/Product/15821932495182",
+      "matchedBy": "title",
+      "title": "Dárková kazeta čajová - Půvabný čas Vánoc",
+      "handle": "darkova-kazeta-cajova-puvabny-cas-vanoc"
+    },
+    "poustni-sul-z-kalahari-baleni": null,
+    "knedlik-v-krku-bonbony-bio": null,
+    "milostne-keksy-bio": null,
+    "ayurvedska-kouzelna-sul-jemna-v-mlynku": {
+      "gid": "gid://shopify/Product/15821908836686",
+      "matchedBy": "title",
+      "title": "Ayurvédská kouzelná sůl do mlýnku konv. 150g",
+      "handle": "ayurvedska-kouzelna-sul-do-mlynku-konv-150g"
+    },
+    "divoke-jablko-bio-krabicka": null,
+    "citronova-trava-rezana-bio-krabicka2": null,
+    "nove-koreni-mlete-bio-krabicka": null,
+    "estragon-bio-krabicka2": null,
+    "sbohem-soli-stredomorska-bio-krabicka": null,
+    "aladinovo-koreni-do-kavy-bio-krabicka": null,
+    "pepr-bily-mlety-bio-krabicka": null,
+    "tabouleh-koreni-na-salat-bio-krabicka": null,
+    "zdobeni-na-salat-bio-baleni": null,
+    "kardamom-cely-bio-krabicka": null,
+    "fenykl-olej-bio-50ml-bio": null,
+    "bazalka-etericky-olej-bio": null,
+    "anyz-olej-bio": null,
+    "salat-a-dipy-etericky-olej-bio": null,
+    "zazvor-etericky-olej-bio": null,
+    "harmonie-etericky-olej-bio": null,
+    "mata-peprna-etericky-olej-bio": null,
+    "darkovy-box-sobestacna-zahradka": null,
+    "zverinove-koreni-cisare-frantiska-bio-krabicka": null,
+    "rajcata-vlocky-bio-krabicka": null,
+    "zazvor-pohoda-sypany-bio": null,
+    "citron-etericky-olej-bio": null,
+    "korenici-smesi": null,
+    "darkove-baleni-3-caju-zazvorove-trio-bio-baleni": null,
+    "zazvor-kurkuma-sypany-bio": null,
+    "zazvor-citron-sypany-bio": null,
+    "zazvor-energie-sypany-bio": null,
+    "pampeliskove-kafe-bio-doza": null,
+    "kuc-kuc-sirup-bio": null,
+    "lehci-nez-pirko-caj-bio-porcovany-dvoukomorovy": null,
+    "vesele-velikonoce-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821918044494",
+      "matchedBy": "manual",
+      "title": null,
+      "handle": "vesele-velikonoce-bio-27g-porc-dvoukomorovy"
+    },
+    "zlaty-kurkumovy-med-bio": null,
+    "vesele-velikonoce-sypany-bio": {
+      "gid": "gid://shopify/Product/15821917978958",
+      "matchedBy": "manual",
+      "title": null,
+      "handle": "vesele-velikonoce-bio-syp-60g"
+    },
+    "mandarinka-etericky-olej-bio": null,
+    "velikonocni-zajicek-caj-sypany-bio": null,
+    "seminka-k-naklicovani": null,
+    "klicivy-mix-bio-krabicka": null,
+    "andel-strazny-etericky-olej-bio": null,
+    "english-tea-assam-cerny-caj-bio-porcovany-dvoukomorovy": null,
+    "jarni-polibeni-bylinna-smes-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821911753038",
+      "matchedBy": "manual",
+      "title": null,
+      "handle": "jarni-polibeni-bio-27g-porc-dvoukomorovy"
+    },
+    "krupave-keksy-bio-krabicka": null,
+    "antimoucha-a-antikomar-etericky-olej-bio": null,
+    "bertram-mlety-bio-krabicka": null,
+    "koreni-na-kolace-a-keksy-bio-krabicka": null,
+    "lucni-kviti-sypany-bio": null,
+    "zakratko-maminkou-caj-bio-porcovany-jednokomorovy": {
+      "gid": "gid://shopify/Product/15821922992462",
+      "matchedBy": "title",
+      "title": "Zakrátko maminkou® Biorarášci bio 21,6g porc. dvoukomorový",
+      "handle": "zakratko-maminkou-biorarasci-bio-216g-porc-dvoukomorovy"
+    },
+    "cejkovicky-ledacek-bio-pyramidalni-sacky": null,
+    "kukuricne-krupky-bio-baleni": null,
+    "raraskovy-kakaove-keksy-s-kokosovym-cukrem-bio-krabicka": null,
+    "etericke-oleje": null,
+    "jeziskuv-nebesky-caj-bio-porcovany-dvoukomorovy": null,
+    "zimni-noc-etericky-olej-bio": null,
+    "adventni-bio": {
+      "gid": "gid://shopify/Product/15821934494030",
+      "matchedBy": "manual",
+      "title": null,
+      "handle": "adventni-etericky-olej-bio-10-ml"
+    },
+    "jemny-kurkumovy-sen-bio-porcovany-dvoukomorovy": null,
+    "vonavy-kurkumovy-sen-bio-porcovany-dvoukomorovy": null,
+    "vonavy-kurkumovy-sen-sypany-bio": null,
+    "jemny-kurkumovy-sen-sypany-bio": null,
+    "darkovy-poukaz-dekuji": null,
+    "bio-zrnkova-kava": null,
+    "videnske-pokuseni-r-melange-prazena-kava-mleta-bio": null,
+    "keksy": null,
+    "vsechno-nejlepsi-sypany-bio": null,
+    "pro-babicku-bio-porcovany-dvoukomorovy": null,
+    "pro-dedecka-bio-porcovany-dvoukomorovy": null,
+    "zeleny-caj-stesti-bio-porcovany-dvoukomorovy": null,
+    "darkova-baleni": null,
+    "pikantni-koreni-na-pomazanky-bio-krabicka2": null,
+    "koreni-na-jidla-z-jednoho-hrnce-bio-krabicka": null,
+    "stesti-je-otevrit-oci-dokoran-bio-porcovany-dvoukomorovy": null,
+    "stesti-je-blaznive-milovat-bio-porcovany-dvoukomorovy": null,
+    "hermanek-pure-bio-pyramidalni-sacky": null,
+    "ocista-docista-koreni-bio-krabicka": null,
+    "postni-cas-bylinna-smes-bio-porcovany-jednokomorovy": null,
+    "salvej-bio-krabicka2": null,
+    "mak-modry-bio-krabicka": null,
+    "adventni-etericky-olej-bio": null,
+    "relaxacni-caj-sv-hild-sypany-bio-krabicka": null,
+    "chytra-hlavicka-bio-baleni": {
+      "gid": "gid://shopify/Product/15821934592334",
+      "matchedBy": "title",
+      "title": "Chytrá hlavička éterický olej bio 10 ml",
+      "handle": "chytra-hlavicka-etericky-olej-bio-10-ml"
+    },
+    "leharko-etericky-olej-bio-baleni": null,
+    "dobra-nalada-etericky-olej-bio": {
+      "gid": "gid://shopify/Product/15821907034446",
+      "matchedBy": "title",
+      "title": "Dobrá nálada® bio 27g porc. dvoukomorový",
+      "handle": "dobra-nalada-bio-27g-porc-dvoukomorovy"
+    },
+    "cerny-kmin-olej-bio": null,
+    "tymian-olej-bio-50ml-bio": null,
+    "habesino-koreni-berber-bio-krabicka": null,
+    "konopi-cbd-bio-porcovany-dvoukomorovy": null,
+    "konopi-cbd-sypane-bio-baleni": null,
+    "kava-videnske-pokuseni-espresso-zrnkova-bio-baleni": null,
+    "vse-zase-dobre-poznavaci-sada-bio-porcovany-dvoukomorovy2": null,
+    "tonkove-boby-cele-bio-krabicka": null,
+    "spokojene-brisko-koreni-bio-krabicka": null,
+    "propolisove-kapky-bio": null,
+    "ovocna-symfonie-caj-bio-porcovany-dvoukomorovy": null,
+    "citronova-materidouska-bio-krabicka2": null,
+    "tady-roste-radost-sypany-bio": {
+      "gid": "gid://shopify/Product/15821917913422",
+      "matchedBy": "manual",
+      "title": null,
+      "handle": "tady-roste-radost-bio-syp-50g"
+    },
+    "darkove-baleni-3-koreni-sbohem-soli-bio-baleni": null,
+    "andel-strazny-caj-sypany-bio": null,
+    "darkovy-poukaz-tady-roste-radost": null,
+    "darkovy-poukaz-vanoce": null,
+    "darkovy-poukaz-hodne-stesti": null,
+    "view": null,
+    "sonnentor-adventni-kalendar-r-bio-poznavaci-sada": null,
+    "darkova-kazeta-cajova-radost-vanoc-bio": {
+      "gid": "gid://shopify/Product/15821932396878",
+      "matchedBy": "title",
+      "title": "Dárková kazeta čajová – Kouzlo zimních večerů",
+      "handle": "darkova-kazeta-cajova-kouzlo-zimnich-veceru"
+    },
+    "keksy-a-punc-etericky-olej-bio": null,
+    "darkove-baleni-3-caju-pro-skvely-den-rarasku-bio-baleni": null,
+    "darkove-poukazy": null,
+    "darkove-baleni-2-caju-na-zizu-bio": null,
+    "biorarasci-r-poznavaci-sada-bio-porcovany-dvoukomorovy": null,
+    "selske-koreni-na-brambory-bio-krabicka": null,
+    "majoranka-bio-krabicka": null,
+    "pomeranc-etericky-olej-bio2": null,
+    "kouzlo-krbu-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821928628558",
+      "matchedBy": "title",
+      "title": "Kouzlo krbu bio 100 g syp.",
+      "handle": "kouzlo-krbu-bio-100-g-syp"
+    },
+    "jablicko-z-pece-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821926629710",
+      "matchedBy": "title",
+      "title": "Jablíčko z pece® bio 45 g, porc. dvoukomorový",
+      "handle": "jablicko-z-pece-bio-45-g-porc-dvoukomorovy"
+    },
+    "zimni-noc-caj-bio-porcovany-dvoukomorovy": {
+      "gid": "gid://shopify/Product/15821928333646",
+      "matchedBy": "title",
+      "title": "Zimní noc bio 100 g syp.",
+      "handle": "zimni-noc-bio-100-g-syp"
+    },
+    "chai-koreneny-sen-bio-porcovany-dvoukomorovy": null,
+    "jeziskuv-nebesky-caj-sypany-bio": null,
+    "darkove-baleni-3-caju-jarni-poteseni-bio-detail": null,
+    "klidne-brisko-bio-porcovany-dvoukomorovy": null,
+    "prvni-cajicek-bio-porcovany-dvoukomorovy": null,
+    "zeleninova-polevka-sv-hildegardy-bujon-bio-baleni": {
+      "gid": "gid://shopify/Product/15821924008270",
+      "matchedBy": "title",
+      "title": "Zeleninová polévka sv. Hildegardy bio ve skleničce",
+      "handle": "zeleninova-polevka-sv-hildegardy-bio-ve-sklenicce"
+    },
+    "rooibos-pomeranc-bio-porcovany-dvoukomorovy": null,
+    "bylinkove-kouzlo-sirup-bio-lahev": null,
+    "horky-pomeranc-sirup-bio-lahev": null,
+    "bergamot-sirup-bio-lahev": null,
+    "pepr-bily-cely-bio-krabicka": null,
+    "ovocny-poklad-sirup-bio-lahev": null,
+    "kouzlo-krbu-caj-sypany-bio": null,
+    "nadechnuti-v-lese-bio-pyramidalni-sacky": {
+      "gid": "gid://shopify/Product/15821925810510",
+      "matchedBy": "title",
+      "title": "Nadechnutí v lese bio 21,6 g porc. dvoukomorový",
+      "handle": "nadechnuti-v-lese-bio-216-g-porc-dvoukomorovy"
+    },
+    "seminka-horcice-cerne-bio-krabicka": null,
+    "kurkuma-mleta-bio-dozicka": null,
+    "vysmatea-bio-porcovany-dvoukomorovy": null,
+    "vysmatea-sypany-bio-baleni": null,
+    "pikantni-smesi": null,
+    "provensalske-koreni-bio-krabicka": null,
+    "sypane": null,
+    "porcovane": null,
+    "bylinne-caje": null,
+    "ovocne-caje": null,
+    "bile-zelene-a-cerne-caje": null,
+    "darkovy-box-vanoce-s-vuni-koreni": null,
+    "pohlednice-radostne-vanoce": {
+      "gid": "gid://shopify/Product/15821929742670",
+      "matchedBy": "handle",
+      "title": "Pohlednice Radostné Vánoce",
+      "handle": "pohlednice-radostne-vanoce"
+    },
+    "chai": {
+      "gid": "gid://shopify/Product/15821914669390",
+      "matchedBy": "title",
+      "title": "Chai polibek Orientu bio 70g",
+      "handle": "chai-polibek-orientu-bio-70g"
+    },
+    "cokokulicky-bio-baleni": null,
+    "cerne-caje": {
+      "gid": "gid://shopify/Product/15821906739534",
+      "matchedBy": "title",
+      "title": "Vybraný Earl Grey bio, aromatizovaný černý čaj 27 g porc. dvoukomorový",
+      "handle": "vybrany-earl-grey-bio-aromatizovany-cerny-caj-27-g-porc-dvoukomorovy"
+    },
+    "zelene-caje": {
+      "gid": "gid://shopify/Product/15821908738382",
+      "matchedBy": "title",
+      "title": "Půvabná Jasmín bio, ovoněný zelený čaj, 100 g  syp.",
+      "handle": "puvabna-jasmin-bio-ovoneny-zeleny-caj-100-g-syp"
+    },
+    "bile-caje": {
+      "gid": "gid://shopify/Product/15821910704462",
+      "matchedBy": "title",
+      "title": "Noblesní Pai Mu Tan bio, bílý čaj, 18 g porc. dvoukomorový",
+      "handle": "noblesni-pai-mu-tan-bio-bily-caj-18-g-porc-dvoukomorovy"
+    },
+    "rada-sv-hildegardy": null,
+    "zeleny-caj-s-citronovou-travou-bio-porcovany-dvoukomorovy": null,
+    "detske-caje": null,
+    "vzorek-p99797": null,
+    "advent-a-vanoce": {
+      "gid": "gid://shopify/Product/15821935870286",
+      "matchedBy": "title",
+      "title": "Chai vánoční bio 32,4 g, porc. dvoukomorový",
+      "handle": "chai-vanocni-bio-324-g-porc-dvoukomorovy"
+    },
+    "sypane-ovocne-caje": null,
+    "ledove-caje": null,
+    "rimsky-kmin-mlety-bio-krabicka": {
+      "gid": "gid://shopify/Product/15821911064910",
+      "matchedBy": "title",
+      "title": "Kmín římský bio, mletý 40g",
+      "handle": "kmin-rimsky-bio-mlety-40g"
+    },
+    "best-team-bio-porcovany-dvoukomorovy": null,
+    "zazvor-bio-porcovany-jednokomorovy": null,
+    "kardamom-latte-bio-krabicka": null,
+    "koreni-na-kolace-keksy-mlete-bio-krabicka": null,
+    "pepr-barevny-cerny-bily-ruzovy-zeleny-cely-v-mlynku-bio": null,
+    "bobkovy-list-bio-gastro-doza-velka": {
+      "gid": "gid://shopify/Product/15821907722574",
+      "matchedBy": "manual",
+      "title": null,
+      "handle": "bobkovy-list-bio-50-g-gastro-baleni"
+    }
+  },
+  "unresolvedProducts": []
+}

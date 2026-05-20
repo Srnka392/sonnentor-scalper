@@ -1,0 +1,19 @@
+{
+  "name": "sonnentor-migration",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Scrape sonnentor.com cs-cz and import pages/articles/recipes/herbarium into Shopify.",
+  "scripts": {
+    "urls": "node src/cli.js urls",
+    "scrape": "node src/cli.js scrape",
+    "import": "node src/cli.js import",
+    "report": "node src/cli.js report"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "p-limit": "^5.0.0",
+    "undici": "^6.21.0"
+  }
+}
