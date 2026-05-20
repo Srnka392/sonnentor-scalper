@@ -232,6 +232,18 @@ function extractYouMightAlsoLikeRecipes($, selfUrl) {
     return [...refs.values()];
 }
 
+function extractYouMightAlsoLikeHeading($) {
+    let heading = '';
+    $('section.page-break-avoid').each((_, section) => {
+        const $section = $(section);
+        if (!isYouMightAlsoLikeSection($section)) return;
+        const text = stripWhitespace($section.find('h2').first().text()).replace(/:$/, '');
+        if (text) heading = text;
+        return false;
+    });
+    return heading;
+}
+
 function productFromTeaserSection($, sectionElement) {
     const anchor = $(sectionElement).find('a[href*="/eshop/"]').first();
     if (!anchor.length) return null;
@@ -315,6 +327,7 @@ export async function scrapeRecipe(url) {
     const relatedProducts = extractRelatedProducts($);
     const relatedArticles = extractRelatedRecipes($, url);
     const youMightAlsoLike = extractYouMightAlsoLikeRecipes($, url);
+    const youMightAlsoLikeHeading = extractYouMightAlsoLikeHeading($);
     const heroExcerpt = extractHeroExcerpt($);
     const metaDescription = $('meta[name="description"]').attr('content')?.trim() ?? description;
     const rating = recipeNode?.aggregateRating
@@ -343,6 +356,7 @@ export async function scrapeRecipe(url) {
         relatedProducts,
         relatedArticles,
         youMightAlsoLike,
+        youMightAlsoLikeHeading,
         rating,
     };
 }

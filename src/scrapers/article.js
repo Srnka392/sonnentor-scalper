@@ -126,6 +126,18 @@ function extractRelatedArticles($, selfUrl) {
     return [...refs.values()];
 }
 
+function extractYouMightAlsoLikeHeading($) {
+    let heading = '';
+    $('section.page-break-avoid').each((_, section) => {
+        const $section = $(section);
+        if (!isYouMightAlsoLikeSection($section)) return;
+        const text = stripWhitespace($section.find('h2').first().text()).replace(/:$/, '');
+        if (text) heading = text;
+        return false;
+    });
+    return heading;
+}
+
 function extractYouMightAlsoLike($, selfUrl) {
     const refs = new Map();
     $('section.page-break-avoid').each((_, section) => {
@@ -151,6 +163,7 @@ export async function scrapeArticle(url) {
     const relatedProducts = extractRelatedProducts($);
     const relatedArticles = extractRelatedArticles($, url);
     const youMightAlsoLike = extractYouMightAlsoLike($, url);
+    const youMightAlsoLikeHeading = extractYouMightAlsoLikeHeading($);
     const { bodyHtml, images } = mainElement.length
         ? cleanContentRoot($, mainElement, {
             preserveStructure: true,
@@ -171,5 +184,6 @@ export async function scrapeArticle(url) {
         relatedProducts,
         relatedArticles,
         youMightAlsoLike,
+        youMightAlsoLikeHeading,
     };
 }

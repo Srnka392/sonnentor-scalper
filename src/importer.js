@@ -300,6 +300,9 @@ async function importArticlesGeneric({ section, blogHandle, blogTitle, dryRun, l
                             youMightSet += 1;
                         }
                     }
+                    if (item.youMightAlsoLikeHeading) {
+                        entries.push({ ownerId: ownerGid, namespace: SGA_NAMESPACE, key: 'you_might_also_like_heading', type: 'single_line_text_field', value: item.youMightAlsoLikeHeading });
+                    }
                     if (!entries.length) return;
                     try { await setMetafields(entries); }
                     catch (err) { console.error(`  ✗ pass2 for ${item.handle}: ${err.message.slice(0, 200)}`); }
@@ -420,6 +423,9 @@ async function importRecipes({ dryRun, limit }) {
                             entries.push({ ownerId: ownerGid, namespace: SGA_NAMESPACE, key: 'you_might_also_like', type: 'list.article_reference', value: JSON.stringify(gids) });
                             youMightSet += 1;
                         }
+                    }
+                    if (recipe.youMightAlsoLikeHeading) {
+                        entries.push({ ownerId: ownerGid, namespace: SGA_NAMESPACE, key: 'you_might_also_like_heading', type: 'single_line_text_field', value: recipe.youMightAlsoLikeHeading });
                     }
                     if (!entries.length) return;
                     try { await setMetafields(entries); }
