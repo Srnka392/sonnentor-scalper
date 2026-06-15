@@ -173,7 +173,7 @@ Note: blog posts being migrated don't exist in Shopify yet — they're being CRE
 | `Metafield: sga.ingredients [list.single_line_text_field]` | **Non-product** ingredient lines in page order, JSON array of `qty\|unit\|label` lines (no section headings, no `[[…]]` markers; product-linked lines excluded). See "Ingredients" above. |
 | `Metafield: sga.ingredient_products [list.product_reference]` | Buyable products referenced by the ingredients (the lines excluded from `sga.ingredients`) — comma-separated Shopify product **handles**. |
 | `Metafield: sga.eyebrow [single_line_text_field]` | Category kicker above the title (recipe's first category). Empty if none. |
-| `Metafield: sga.serving_tip [single_line_text_field]` | Serving/plating tip, scraped from the legacy recipe's tip block where present (~154 recipes); empty otherwise. |
+| `Metafield: sga.serving_tip [single_line_text_field]` | Serving/plating tip (optional, single line of text). |
 | `Metafield: sga.difficulty [single_line_text_field]` | Difficulty label. Not present on the legacy site — left empty for migrated recipes. |
 | `Metafield: sga.instructions [list.single_line_text_field]` | Recipe steps as JSON array. Plain text, no step numbers (theme adds them). |
 

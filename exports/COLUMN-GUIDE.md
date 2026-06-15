@@ -263,16 +263,14 @@ mapped handle.)
 ---
 
 ## `Metafield: sga.eyebrow [single_line_text_field]`
-Short category kicker shown above the recipe title — the recipe's first category
-(`.recipe__categories`) on the legacy page, e.g. `Polévky`, `Světová kuchyně`. Empty if the
-recipe has no category.
+Short category kicker shown above the recipe title — the recipe's first category,
+e.g. `Polévky`, `Světová kuchyně`. Empty if the recipe has no category.
 
 ---
 
 ## `Metafield: sga.serving_tip [single_line_text_field]`
-A serving / plating tip, scraped from the legacy recipe's tip block (`.tip-item__text`)
-where present — populated for ~154 recipes, empty for the rest. Single line (tips joined
-with a space when a recipe has more than one tip block).
+A short serving / plating tip for the recipe, as a single line of text. Optional — leave
+empty if the recipe has none.
 
 ---
 
