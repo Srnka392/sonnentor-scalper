@@ -210,25 +210,75 @@ Heading text of the products section on the recipe page.
 
 ---
 
-## `Metafield: sga.ingredients_<N>_heading [single_line_text_field]` (N = 1…5)
-Heading of ingredient section N (e.g. `Těsto`, `Náplň`, `Na ozdobu`).
-- Recipe has 1 section → fill only `ingredients_1_heading` (can be empty if unnamed)
-- 3 sections → fill `_1`, `_2`, `_3` headings; leave `_4`, `_5` empty
+## `Metafield: sga.ingredients [list.single_line_text_field]`
+The recipe's **non-product** ingredient lines, in page order, as a single **JSON array**.
+Section headings are **not** migrated — every plain ingredient (across all of the recipe's
+original sections) goes into this one list, in the order they appear on the page.
 
-> [Screenshot: ingredient section headings on recipe page]
+**Product-linked lines are EXCLUDED from this list.** Any ingredient that references a buyable
+product belongs solely in `sga.ingredient_products` (below) and does **not** appear here. So a
+recipe whose page listed `5 ks mrkve`, `1 ks zázvoru`, `olej na zředění`, `Pepř černý` (a
+product), `1 lžička medu`, and three more products yields just the four non-product lines:
+`["5|ks|mrkve","1|ks|zázvoru","||olej na zředění","1|lžička|medu"]`.
+
+Each line is **pipe-delimited** `qty|unit|label` — exactly three fields, two pipes:
+
+| Field | Meaning |
+|---|---|
+| `qty` | Leading numeric quantity as a decimal. Fractions are converted (`1/2` → `0.5`, `1/8` → `0.125`). Empty if the line has no leading number. |
+| `unit` | The measurement unit right after the number (`ks`, `g`, `kg`, `l`, `ml`, `lžíce`, `lžička`, `hrnek`, `špetka`, `balení`, `stroužek`, …). Empty if there is none. |
+| `label` | The remaining ingredient name. |
+
+Rules:
+- Quantities/units are split off **only** when the leading token is clearly numeric and
+  (for the unit) the next token is a known unit. Otherwise everything stays in `label`
+  with empty `qty`/`unit` (e.g. `2 vejce` → `2||vejce`, `olej na zředění` → `||olej na zředění`).
+- Product references are **not** embedded here — no `[[…]]` markers, and a product-linked line
+  is dropped entirely (it lives only in `sga.ingredient_products`). This column carries the
+  non-product lines only.
+
+```
+["150|g|pšeničné mouky","1|lžička|Ayurvédská kouzelná sůl","5|ks|mrkve","||olej na zředění","0.5|lžička|pomerančové kůry"]
+```
+
+> [Screenshot: ingredient list on recipe page]
 
 ---
 
-## `Metafield: sga.ingredients_<N> [list.single_line_text_field]` (N = 1…5)
-Ingredient items for section N. **JSON array** format (safe for commas inside items).
+## `Metafield: sga.ingredient_products [list.product_reference]`
+The buyable products referenced by the recipe's ingredients — comma-separated Shopify product
+**handles** (the `shopify_product_handle` column of `products-mapping.csv`). These are the
+ingredient lines that were **excluded** from `sga.ingredients`.
 
-Items can link to a product using `[[<shopify product id>]]`:
+Handles (not IDs) are used here on purpose: the export targets the **production** store, where
+the products exist under these handles even though many are absent from the rebuilt dev store.
+Matrixify resolves `list.product_reference` by handle on import. Empty cell = the recipe linked
+no products, or none of them had a row in `products-mapping.csv`.
 
-```
-["150 g pšeničné mouky","30 g pšeničné celozrnné mouky","1 lžička Ayurvédská kouzelná sůl [[15821924008270]]"]
-```
+(Note: the live dev-store metafield write resolves these handles to current dev gids and writes
+only the ones that resolve; when none resolve it skips the write so any hand-curated value on a
+demo article is preserved. The CSV export above is independent of that and always lists every
+mapped handle.)
 
-> [Screenshot: ingredient list on recipe page, with one item linking to a product]
+---
+
+## `Metafield: sga.eyebrow [single_line_text_field]`
+Short category kicker shown above the recipe title — the recipe's first category
+(`.recipe__categories`) on the legacy page, e.g. `Polévky`, `Světová kuchyně`. Empty if the
+recipe has no category.
+
+---
+
+## `Metafield: sga.serving_tip [single_line_text_field]`
+A serving / plating tip, scraped from the legacy recipe's tip block (`.tip-item__text`)
+where present — populated for ~154 recipes, empty for the rest. Single line (tips joined
+with a space when a recipe has more than one tip block).
+
+---
+
+## `Metafield: sga.difficulty [single_line_text_field]`
+Recipe difficulty label (e.g. `Snadné`). **The legacy recipe page has no difficulty field**,
+so this is left empty for migrated recipes (column exists for future editorial use).
 
 ---
 
@@ -296,7 +346,8 @@ Always `IMAGE`.
 
 | Reference target | Identifier | Where to look up |
 |---|---|---|
-| **Products** (any `product_reference` or `list.product_reference` metafield, and `[[ ]]` in ingredients) | Shopify product **ID** | `products-mapping.csv` |
+| **Products** (`product_reference` / `list.product_reference` metafields) | Shopify product **ID** | `products-mapping.csv` |
+| **`sga.ingredient_products`** (exception) | Shopify product **handle** (`shopify_product_handle`) | `products-mapping.csv` |
 | **Articles / recipes / herbs** (`related_articles`, `you_might_also_like`) | Source **handle** (URL slug) | The URL on the legacy site |
 
 ---

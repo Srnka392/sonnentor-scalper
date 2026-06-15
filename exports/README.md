@@ -88,25 +88,31 @@ Our namespace is **`sga`** for all migration metafields.
 | `list.article_reference` | Comma-separated article handles (e.g. `"polevka-z-korenove-zeleniny, kouzelna-cokoladova-pena"`) |
 | `file_reference` | File name with extension (e.g. `cokoladove-grissini-thumb.jpg`) — must exist in Shopify Files (uploaded via `files.csv` first) |
 
-> **List values containing commas in actual content**: prefer JSON array syntax to avoid ambiguity. Example for ingredients (which can contain commas):
+> **List values containing commas in actual content**: prefer JSON array syntax to avoid ambiguity. Example for ingredients:
 > ```
-> ["150 g pšeničné mouky","1 lžička soli, mletého pepře","2 vejce"]
+> ["150|g|pšeničné mouky","1|lžička|soli, mletého pepře","2||vejce"]
 > ```
 
-### Embedded product links inside ingredient items
+### Ingredients — single metafield, pipe-delimited lines
 
-Ingredient items can include a product reference via the syntax `<item text> [[<shopify product id>]]`:
+The **non-product** ingredient lines live in **one** metafield `sga.ingredients` (the old
+per-section `sga.ingredients_<N>` + `sga.ingredients_<N>_heading` model is retired — section
+headings are no longer migrated). The cell is a JSON array of lines, each `qty|unit|label`
+(exactly two pipes):
 
 ```
-1 lžička Ayurvédská kouzelná sůl [[15821924008270]]
+["150|g|pšeničné mouky","1|lžička|Ayurvédská kouzelná sůl","5|ks|mrkve","||olej na zředění","0.5|lžička|pomerančové kůry"]
 ```
 
-Look up Shopify product IDs in `products-mapping.csv` (search by legacy source handle, copy the `shopify_product_id` column).
+- `qty` — leading number as a decimal (`1/2` → `0.5`); empty if none.
+- `unit` — measurement unit if the token after the number is a known unit; empty otherwise.
+- `label` — the rest of the ingredient name.
 
-A full `ingredients_1` cell:
-```
-["150 g pšeničné mouky","30 g pšeničné celozrnné mouky","1 lžička Ayurvédská kouzelná sůl [[15821924008270]]","půl lžičky Kardamom [[15821921386830]]"]
-```
+**Product-linked ingredient lines are EXCLUDED from `sga.ingredients`** — they appear only in
+`sga.ingredient_products`. Product references are never embedded in the text (no `[[…]]`). The
+`sga.ingredient_products` cell is comma-separated Shopify product **handles** (from
+`products-mapping.csv`), so a production import resolves them by handle even though many are
+absent from the rebuilt dev store.
 
 ---
 
@@ -114,7 +120,8 @@ A full `ingredients_1` cell:
 
 | Reference target | Identifier to use | Lookup source |
 |---|---|---|
-| **Products** (`main_product`, `related_products`, `found_in_blends`, `[[ ]]` in ingredients) | Shopify **product ID** | `products-mapping.csv` |
+| **Products** (`main_product`, `related_products`, `found_in_blends`) | Shopify **product ID** | `products-mapping.csv` |
+| **`ingredient_products`** (exception) | Shopify product **handle** | `products-mapping.csv` (`shopify_product_handle`) |
 | **Blog posts** (`related_articles`, `you_might_also_like`) | Source **handle** | The URL slug from the old store, e.g. `https://www.sonnentor.com/cs-cz/recepty-a-tipy/recepty/cokoladove-grissini` → `cokoladove-grissini` |
 
 Note: blog posts being migrated don't exist in Shopify yet — they're being CREATED by this import. Matrixify resolves article references by handle within and across blog handles.
@@ -163,11 +170,12 @@ Note: blog posts being migrated don't exist in Shopify yet — they're being CRE
 | `Metafield: sga.you_might_also_like [list.article_reference]` | "Recipes you might also enjoy" |
 | `Metafield: sga.you_might_also_like_heading [single_line_text_field]` | Section heading |
 | `Metafield: sga.related_products_heading [single_line_text_field]` | Section heading |
-| `Metafield: sga.ingredients_<N>_heading [single_line_text_field]` (N = 1…5) | Heading for ingredient section N. Empty for unnamed sections. |
-| `Metafield: sga.ingredients_<N> [list.single_line_text_field]` (N = 1…5) | Items in section N. JSON array recommended. Items with product links use `[[<id>]]` syntax. |
+| `Metafield: sga.ingredients [list.single_line_text_field]` | **Non-product** ingredient lines in page order, JSON array of `qty\|unit\|label` lines (no section headings, no `[[…]]` markers; product-linked lines excluded). See "Ingredients" above. |
+| `Metafield: sga.ingredient_products [list.product_reference]` | Buyable products referenced by the ingredients (the lines excluded from `sga.ingredients`) — comma-separated Shopify product **handles**. |
+| `Metafield: sga.eyebrow [single_line_text_field]` | Category kicker above the title (recipe's first category). Empty if none. |
+| `Metafield: sga.serving_tip [single_line_text_field]` | Serving/plating tip, scraped from the legacy recipe's tip block where present (~154 recipes); empty otherwise. |
+| `Metafield: sga.difficulty [single_line_text_field]` | Difficulty label. Not present on the legacy site — left empty for migrated recipes. |
 | `Metafield: sga.instructions [list.single_line_text_field]` | Recipe steps as JSON array. Plain text, no step numbers (theme adds them). |
-
-> Fill ingredient sections sequentially: 1 section → `ingredients_1` only; 3 sections → `_1`, `_2`, `_3`; leave higher slots empty.
 
 ### Herbarium-specific metafields (`herbarium.csv`)
 
